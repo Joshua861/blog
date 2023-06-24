@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Josh&#39;s Blog</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on Josh&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Death Penalty</title>
+      <link>/posts/death-penalty/</link>
+      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/death-penalty/</guid>
+      <description>Capital punishment, also known as the death penalty, is a highly contentious issue that raises several moral, ethical, and practical concerns. At its core, it involves the state taking the life of a person as punishment for a crime they have been convicted of. The act of carrying out a death sentence is referred to as an &amp;ldquo;execution,&amp;rdquo; and a prisoner who is awaiting execution is often referred to as being &amp;ldquo;on death row.</description>
+    </item>
+    
+  </channel>
+</rss>

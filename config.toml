@@ -1,0 +1,4 @@
+baseURL = ''
+languageCode = 'en-us'
+title = "Josh's Blog"
+theme = "holy"
