@@ -1,0 +1,13 @@
+title = "Josh's Blog"
+
+[author]
+name = "Joshua Lopes"
+image = "pfp.png"
+headline = "Student from the UK"
+bio = "Epic gamer"
+links = [
+  { github = "https://github.com/joshua861" },
+  { email = "mailto:a8gd0ddf7hdh@gmail.com" },
+  { twitter = "https://twitter.com/l71388196"},
+  { youtube = "https://www.youtube.com/channel/UCCKUNCQcOApKqYZG5on-D0w"}
+]

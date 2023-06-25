@@ -1,4 +1,5 @@
-baseURL = ''
+baseURL = 'joshua861.github.io/blog/'
 languageCode = 'en-us'
 title = "Josh's Blog"
-theme = "holy"
+theme = "congo"
+canonifyURLs = true
