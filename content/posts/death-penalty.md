@@ -5,7 +5,7 @@ draft: false
 ---
 Capital punishment, also known as the death penalty, is a highly contentious issue that raises several moral, ethical, and practical concerns. At its core, it involves the state taking the life of a person as punishment for a crime they have been convicted of. The act of carrying out a death sentence is referred to as an "execution," and a prisoner who is awaiting execution is often referred to as being "on death row."
 
-![A map of all the countries in the world that still have the death penalty.](/images/map.png)
+{{< figure src="/images/map.png" alt="A map of all the countries in the world that still have the death penalty." >}}
 
 ## Against the death penalty
 
@@ -21,17 +21,17 @@ A [study](https://files.deathpenaltyinfo.org/legacy/documents/WashingtonCosts.pd
   
 Nations that carry out the most executions are frequently those whose judicial systems are under scrutiny for issues of fairness and impartiality. The three nations with the highest number of executions in 2012 – China, Iran, and Iraq – have all been criticized for imposing death sentences in a manner that lacks transparency.  
   
-![A graph about the difference between the cost of life in jail, and the death penalty.](/images/cost.png)
+{{< figure src="/images/cost.png" alt="A graph about the difference between the cost of life in jail, and the death penalty." >}}
 
 [Another study](file:///D:/Josh's%20stuff/homework/RE/www.files.deathpenaltyinfo.org/legacy/files/pdf/OregonDeathPenaltyCostAnalysis.pdf) found that the death penalty may be more expensive to use. Death sentences cost Oregon taxpayers an average of $2.3 million, including jail costs. When state jail costs are excluded, the discrepancy is even more pronounced. The analysis also discovered that the expense of the death sentence increased over time, from $274,209 in the 1980s to $1,783,148 in the 2000s.  
   
 [One of the leading justifications for the use of the death penalty is that it deters crime. This claim has been repeatedly tested by researchers. The majority of research from both the US and worldwide has found no evidence of a deterrence effect.](https://humanrights.brightblue.org.uk/blog-1/2016/4/22/does-the-death-penalty-deter-crime#:~:text=one%20of%20the%20leading%20justifications%20for%20the%20use%20of%20the%20death%20penalty%20is%20that%20it%20deters%20crime.%20this%20claim%20has%20been%20repeatedly%20tested%20by%20researchers.%20the%20majority%20of%20research%20from%20both%20the%20us%20and%20worldwide%20has%20found%20no%20evidence%20of%20a%20deterrence%20effect.)
 
-![A graph showing that a death penalty sentencing has become more expensive over time.](/images/img.png)
+{{< figure src="/images/img.png" alt="A graph showing that a death penalty sentencing has become more expensive over time." >}}
 
 Another argument against the death penalty is that reformed prisoners have the potential to do a lot of good for the world. This is exemplified by the story of people like Nicky Cruz, who was found guilty of murder but went on to become a Christian evangelist and improved the lives of many young people. He's not the only one, many other examples like Stanley "Tookie" Williams, co-founder of the Crips street gang, who became an anti-gang activist and children's author while serving a life sentence. Or, like John Newton, a former slave trader who wrote the famous hymn "Amazing Grace" after turning to Christianity and dedicating the rest of his life to abolitionist causes.  
 
-![Nicky Cruz](/images/cruz.jpg)
+{{< figure src="/images/cruz.jpg" alt="Nicky Cruz" >}}
 
 These stories serve as a powerful examples of how even those who have committed heinous crimes can turn their lives around and make a positive impact on society. Reformed prisoners can serve as powerful advocates for change, not only within the criminal justice system but also in their communities. They have a unique perspective on the issues of crime and punishment, and can provide valuable insight into the causes of criminal behavior and potential solutions. They also serve as role models for other offenders, showing that change is possible and that a life of crime is not a predetermined fate.  
   
@@ -41,7 +41,7 @@ Furthermore, reformed prisoners can also contribute to society by participating 
 
 The argument that "the punishment should fit the crime" is often put forth as a justification for the use of the death penalty, particularly in cases of heinous crimes such as murder. Proponents of this viewpoint argue that when someone takes the life of another person, they forfeit their own right to life. Therefore, they should be subject to capital punishment.  
 
-![Alt text](/images/crime.jpeg)
+{{< figure src="/images/crime.jpeg" alt="Alt text" >}}
 
 Another argument for the death penalty is that it serves as a form of just punishment for serious crimes and provides a sense of closure for the victims' families. It's also believed that executing a murderer may deter others from committing similar crimes in the future. Additionally, by permanently removing dangerous criminals from society, the death penalty is seen as a way to protect the public from future harm.  
   
@@ -89,8 +89,8 @@ Sentencing someone to death denies that individual two vital human rights guaran
 
 ### [Executions are falling in most US states:](https://deathpenaltyinfo.org/facts-and-research/sentencing-data/state-death-sentences-by-year)
 
-![graph of executions falling](/images/g1.png)
+{{< figure src="/images/g1.png" alt="graph of executions falling" >}}
 
-![graph of executions falling](/images/g2.png)
+{{< figure src="/images/g2.png" alt="graph of executions falling" >}}
 
-![graph of executions falling](/images/g3.png)
+{{< figure src="/images/g3.png" alt="graph of executions falling" >}}
