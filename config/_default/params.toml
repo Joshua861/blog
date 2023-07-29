@@ -17,21 +17,21 @@ enableImageLazyLoading = true
 fingerprintAlgorithm = "sha256"
 
 [header]
-  layout = "basic" # valid options: basic, hamburger, hybrid, custom
+  layout = "hybrid" # valid options: basic, hamburger, hybrid, custom
   # logo = "img/logo.jpg"
   # logoDark = "img/dark-logo.jpg"
   showTitle = true
 
 [footer]
-  showCopyright = true
+  showCopyright = false
   showThemeAttribution = true
   showAppearanceSwitcher = true
   showScrollToTop = true
 
 [homepage]
   layout = "profile" # valid options: page, profile, custom
-  showRecent = false
-  recentLimit = 5
+  showRecent = true
+  recentLimit = 3
 
 [article]
   showDate = true
@@ -50,14 +50,14 @@ fingerprintAlgorithm = "sha256"
   showTaxonomies = false
   showWordCount = true
   showComments = false
-  # sharingLinks = ["facebook", "twitter", "mastodon", "pinterest", "reddit", "linkedin", "email"]
+  sharingLinks = ["twitter", "mastodon", "reddit", "email"]
 
 [list]
   showBreadcrumbs = true
   showSummary = true
   showTableOfContents = false
   showTaxonomies = false
-  groupByYear = true
+  groupByYear = false
   paginationWidth = 1
 
 [sitemap]

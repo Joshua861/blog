@@ -73,5 +73,5 @@ So that was the Voynich manuscript. I hope you found this interesting and learnt
 
 ## Useful links
 
-[Wikipedia article](https://en.wikipedia.org/wiki/Voynich_manuscript?useskin=vector)
-[Voynich Manuscript - Yale Library]([https://en.wikipedia.org/wiki/Voynich_manuscript?useskin=vector](https://collections.library.yale.edu/catalog/2002046))
+[Wikipedia article](https://en.wikipedia.org/wiki/Voynich_manuscript?useskin=vector)<br>
+[Voynich Manuscript - Yale Library](https://collections.library.yale.edu/catalog/2002046)
