@@ -1,7 +1,7 @@
 ---
 title: "The History of Programming Languages"
 date: 2023-07-29
-draft: true
+draft: false
 ---
 
 The word computer was in use from the early 17th century. Originally, a computer was a job, a person who performed calculations.
