@@ -50,6 +50,25 @@ After that, the `DATA DIVISION`, arguably one of the most crucial sections of a 
 
 Finally, we have the `PROCEDURE DIVISION`, which contains the actual logic of the COBOL program. Here, you'll write the logic for the program, such as calculations, input/output operations, and if/else statements. You can use statements, including `DISPLAY` to print output to the screen, or `IF`, `ELSE`, and `END-IF` to make decisions.
 
+## [BASIC](https://en.wikipedia.org/wiki/BASIC?useskin=vector#Origin)
+
+> “BASIC, or 'Beginners' All-purpose Symbolic Instruction Code', is a family of general-purpose, high-level programming languages designed for ease of use.”
+> <cite> — Wikipedia</cite>
+
+It was created in 1963, by Thomas Kurtz and John Kemeny, at Dartmouth College, with the goal of enabling non-scientific students to use computers. At the time, nearly all computers needed custom software, which only professionals tended to learn.
+
+Existing languages were “too tricky”, for example, Fortran had an “almost impossible-to-memorize convention for specifying a loop”. Kemeny and Kurtz agreed that it was very important for students outside STEM fields to be able to write code. Their vision was for every student to be able to access a computer, and any staff should be able to use a computer in the classroom.
+
+Another problem with existing computing was a lack of “immediate feedback”. Computers used [batch processing](https://en.wikipedia.org/wiki/Batch_processing?useskin=vector), where programs are run in batches at scheduled times. This meant that people had to wait a long time to see the output and if their code contained any code. Luckily, John **McCarthy** had the solution: time-sharing! 
+
+The concept of time-sharing is claimed to have been authored by Robert Dodds in 1949, but the term wasn't used until 1958, by Bob Bemer. Time-sharing is where a machine divides its processing time between all the users, making it behave more like everyone having a slower computer to themselves. This meant that small scripts could run in just a few seconds, a massive step up from batch processing.
+
+The first version of BASIC was written by Kemeny. It was heavily inspired by FORTRAN II, many commands were similar or identical to Fortran. However, the syntax was changed wherever they thought it could be improved. For example, the “impossible to memorize" loop was changed to be easier to remember. This, and many more changes, helped make BASIC much easier whilst still resembling Fortran. 
+
+The project was given a $300k grant by the National Science Foundation. The money went to wards buying a computer for processing and a real-time processor to handle the teleprinters used for input and output. A dozen undergrads worked on it for about a year. Writing the DTSS system and the compiler, the first version was officially released in May 1964.
+
+The usage at Dartmouth increased rapidly, with the CPU needing to be replaced twice. By 1970 there were hundreds of people connected to said computers, some remotely. The designers, wanting more people to adopt the language, made it completely free. They put a lot of effort into promoting the language, and BASIC would go on to be hugely popular, and went on to inspire Visual Basic. 
+
 ## Sources
 - [The History of Computers](https://www.bricsys.com/en-gb/blog/who-invented-computers) - Bricsys
 - [Computer](https://en.wikipedia.org/wiki/Computer) – Wikipedia
