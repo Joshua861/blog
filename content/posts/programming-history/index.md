@@ -49,3 +49,35 @@ The next division is the `ENVIRONMENT DIVISION`, where you specify information a
 After that, the `DATA DIVISION`, arguably one of the most crucial sections of a COBOL program. In this division, you describe the data structures used by the program, including the layout and characteristics of data files, working storage variables, and records. COBOL's strength lies in its ability to handle vast amounts of data, making the `DATA DIVISION` integral to handling large-scale business processes.
 
 Finally, we have the `PROCEDURE DIVISION`, which contains the actual logic of the COBOL program. Here, you'll write the logic for the program, such as calculations, input/output operations, and if/else statements. You can use statements, including `DISPLAY` to print output to the screen, or `IF`, `ELSE`, and `END-IF` to make decisions.
+
+## Sources
+- [The History of Computers](https://www.bricsys.com/en-gb/blog/who-invented-computers) - Bricsys
+- [Computer](https://en.wikipedia.org/wiki/Computer) – Wikipedia
+- [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) – Wikipedia
+- [Difference Engine](https://en.wikipedia.org/wiki/Difference_engine) – Wikipedia
+- [Polynomial](https://en.wikipedia.org/wiki/Polynomial) – Wikipedia
+- [Fortran](https://en.wikipedia.org/wiki/Fortran) – Wikipedia
+- [Introduction to Fortran](https://ourcodingclub.github.io/tutorials/fortran-intro/) – Our Coding Club
+- [Implicit None Statement in Fortran](https://www.bottomscience.com/implicit-none-statement-how-to-use-it-fortran/) – Bottom Science
+- [Introduction to COBOL](https://www.mainframestechhelp.com/tutorials/cobol/introduction.htm) – Mainframes Tech Help
+- [Beginner's Guide to COBOL Made Easy](https://scribe.rip/modern-mainframe/beginners-guide-cobol-made-easy-introduction-ecf2f611ac76) – Scribe
+- [COBOL Tutorial](https://www.tutorialspoint.com/cobol/index.htm) – TutorialsPoint
+- [COBOL](https://en.wikipedia.org/wiki/COBOL?useskin=vector#History_and_specification) – Wikipedia
+- [Parallel computing](https://en.wikipedia.org/wiki/Parallel_computing?useskin=vector) – Wikipedia
+- [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming?useskin=vector) – Wikipedia
+- [COBOL Docs](https://www.ibm.com/docs/en/cobol-zos) – IBM
+- [Analytical Engine](https://en.wikipedia.org/wiki/Analytical_engine?useskin=vector) – Wikipedia
+- [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace?useskin=vector) – Wikipedia
+- [Bernoulli numbers](https://en.wikipedia.org/wiki/Bernoulli_number) – Wikipedia
+- [Turing Test](https://en.wikipedia.org/wiki/Turing_test?useskin=vector) – Wikipedia
+- [Turing Machine](https://en.wikipedia.org/wiki/Turing_machine?useskin=vector) – Wikipedia
+- [Alan Turing](https://en.wikipedia.org/w/index.php?title=Alan_Turing&useskin=vector) – Wikipedia
+- [Enigma machine](https://en.wikipedia.org/wiki/Enigma_machine?useskin=vector) – Wikipedia
+- [Turing's proof](https://en.wikipedia.org/wiki/Turing%27s_proof?useskin=vector) – Wikipedia
+- [Turing test](https://en.wikipedia.org/wiki/Turing_test?useskin=vector) – Wikipedia
+- [Grace Hopper](https://en.wikipedia.org/wiki/Grace_Hopper?useskin=vector) – Wikipedia
+- [Computer (occupation)](https://en.wikipedia.org/w/index.php?title=Computer_%28occupation%29&useskin=vector)  – Wikipedia
+- [Basic](https://en.wikipedia.org/wiki/BASIC?useskin=vector) – Wikipedia
+
+# THIS IS NOT FINISHED
+it's set as not a draft so i can show it to people, im working on BASIC rn
