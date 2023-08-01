@@ -28,7 +28,7 @@ The syntax for if statements is quite similar to that of VBA, as you have to wri
 
 Fortran is known for its '[array](https://en.wikipedia.org/wiki/Array_(data_structure)?useskin=vector) operations', or the ability to perform operations on entire arrays at once, without needing to use a loop. These are highly efficient and useful for scientific computing and working with large data sets. Another popular feature is its native [parallel computing](https://en.wikipedia.org/wiki/Parallel_computing?useskin=vector) capabilities. Parallel computing, which is a method of computing tasks by breaking them down into smaller chunks that can be processed simultaneously on different units, significantly improving performance.
 
-Fortran 2003 and later introduced modern programming features such as [object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming?useskin=vector), based on the concepts of objects that can contain data and code. Modern Fortran also has good [interoperability](https://en.wikipedia.org/wiki/Fortran?useskin=vector#:~:text=Interoperability%20with%20the%20C%20programming%20language) with other programming languages. Making it easier to integrate Fortran code with [C](https://en.wikipedia.org/wiki/C_(programming_language)?useskin=vector), [C++](https://en.wikipedia.org/wiki/C%2B%2B?useskin=vector), and others.
+Fortran 2003 and later introduced modern programming features such as [object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming?useskin=vector), based on the concepts of objects that can contain data and code. Modern Fortran also has good [interoperability](https://en.wikipedia.org/wiki/Fortran?useskin=vector#:~:text=Interoperability%20with%20the%20C%20programming%20language) with other programming languages. Making it easier to integrate Fortran code with [C](https://en.wikipedia.org/wiki/C_(programming_language)?useskin=vector),[ C++](https://en.wikipedia.org/wiki/C%2B%2B?useskin=vector), and others.
 
 Fortran's influence in the history of programming has been substantial, indirectly inspiring the development of later languages such as [BASIC](https://en.wikipedia.org/wiki/BASIC) & [C](https://en.wikipedia.org/wiki/C_(programming_language)?useskin=vector). It is being updated to this day, with the latest stable release (at time of recording) being in 2018. It's used by almost 1% of developers, according to the 2023 Stack Overflow Developer Survey. And due to its use in scientific computing and legacy systems, it's not going anywhere.
 
@@ -38,11 +38,11 @@ In the late 1950s, programming was obscenely expensive. A survey found that with
 
 On the 8th of April 1959, [Mary Hawes](https://en.wikipedia.org/wiki/Mary_Hawes), called a meeting, to organize a formal meeting on 'common business languages'. At the meeting, the group asked the [Department of Defence](https://en.wikipedia.org/wiki/United_States_Department_of_Defense) to sponsor the creation of what would become [COBOL](https://en.wikipedia.org/wiki/COBOL?useskin=vector), they agreed.
 
-Grace Hopper is often referred to as 'The Mother of COBOL', and for good reason. She served as a technical consultant to the committee that decided on the creation of COBOL. COBOL was even based on her language, FLOW-MATIC, extending it with ideas from the IBM equivalent, [COMORAN](https://en.wikipedia.org/wiki/COMTRAN "COMTRAN"). Not only did FLOW-MATIC shape the development of COBOL, it was also the **first** English-like data processing language, whatever that means.
+Grace Hopper is often referred to as 'The Mother of COBOL', and for good reason. She served as a technical consultant to the committee that decided on the creation of COBOL. COBOL was even based on her language, FLOW-MATIC, extending it with ideas from the IBM equivalent, [COMORAN](https://en.wikipedia.org/wiki/COMTRAN "COMTRAN"). Not only did FLOW-MATIC shape the development of COBOL, it was also the **first** English-like data processing language, whatever that means. 
 
 ### Syntax
 
-A COBOL program is structured into four essential [divisions](https://www.tutorialspoint.com/cobol/cobol_program_structure.htm#:~:text=Divisions), each serving a specific purpose in organizing the code.
+A COBOL program is structured into four essential [divisions](https://www.tutorialspoint.com/cobol/cobol_program_structure.htm#:~:text=Divisions), each serving a specific purpose in organizing the code. 
 
 The first and only mandatory division is the `IDENTIFICATION DIVISION`, used by the compiler and readers to identify the program. You **must** set a `PROGRAM-ID`, providing a name for your COBOL program.
 
@@ -57,32 +57,41 @@ COBOL is, to this day, a very commonly used language, with 0.66% of respondents 
 ## [BASIC](https://en.wikipedia.org/wiki/BASIC?useskin=vector#Origin)
 
 > “BASIC, or 'Beginners' All-purpose Symbolic Instruction Code', is a family of general-purpose, high-level programming languages designed for ease of use.”
-> _—_ _Wikipedia_
+> <cite> — Wikipedia</cite>
 
 It was created in 1963, by Thomas Kurtz and John Kemeny, at Dartmouth College, with the goal of enabling non-scientific students to use computers. At the time, nearly all computers needed custom software, which only professionals tended to learn.
 
 Existing languages were “too tricky”, for example, Fortran had an “almost impossible-to-memorize convention for specifying a loop”. Kemeny and Kurtz agreed that it was very important for students outside STEM fields to be able to write code. Their vision was for every student to be able to access a computer, and any staff should be able to use a computer in the classroom.
 
-Another problem with existing computing was a lack of “immediate feedback”. Computers used [batch processing](https://en.wikipedia.org/wiki/Batch_processing?useskin=vector), where programs are run in batches at scheduled times. This meant that people had to wait a long time to see the output and if their code contained any code. Luckily, John **McCarthy** had the solution: time-sharing!
+Another problem with existing computing was a lack of “immediate feedback”. Computers used [batch processing](https://en.wikipedia.org/wiki/Batch_processing?useskin=vector), where programs are run in batches at scheduled times. This meant that people had to wait a long time to see the output and if their code contained any code. Luckily, John **McCarthy** had the solution: time-sharing! 
 
 The concept of time-sharing is claimed to have been authored by Robert Dodds in 1949, but the term wasn't used until 1958, by Bob Bemer. Time-sharing is where a machine divides its processing time between all the users, making it behave more like everyone having a slower computer to themselves. This meant that small scripts could run in just a few seconds, a massive step up from batch processing.
 
-The first version of BASIC was written by Kemeny. It was heavily inspired by FORTRAN II, many commands were similar or identical to Fortran. However, the syntax was changed wherever they thought it could be improved. For example, the “impossible to memorize" loop was changed to be easier to remember. This, and many more changes, helped make BASIC much easier whilst still resembling Fortran.
+The first version of BASIC was written by Kemeny. It was heavily inspired by FORTRAN II, many commands were similar or identical to Fortran. However, the syntax was changed wherever they thought it could be improved. For example, the “impossible to memorize" loop was changed to be easier to remember. This, and many more changes, helped make BASIC much easier whilst still resembling Fortran. 
 
 The project was given a $300k grant by the National Science Foundation. The money went to wards buying a computer for processing and a real-time processor to handle the teleprinters used for input and output. A dozen undergrads worked on it for about a year. Writing the DTSS system and the compiler, the first version was officially released in May 1964.
 
 The usage at Dartmouth increased rapidly, with the CPU needing to be replaced twice. By 1970 there were hundreds of people connected to said computers, some remotely. The designers, wanting more people to adopt the language, made it completely free. They put a lot of effort into promoting the language, and BASIC would go on to be hugely popular, and went on to inspire [Visual Basic](https://en.wikipedia.org/wiki/Visual_Basic_(classic)?useskin=vector).
-
 ### [Syntax](https://lateblt.tripod.com/basic.htm)
 
-In BASIC you can print to the screen with `PRINT`, you concatenate strings with a `;`
+_(NOTE: Due to all the BASIC dialects, it was rather hard to check if this code is valid. ChatGPT says it is, I'm pretty sure this is QBASIC, but compilers claiming to be for QBASIC don't work. :/ )_ 
+
+Usually, a script will start with `CLS`, or clear screen. This will simply remove all other text from the command prompt, leaving you with a black slate, for your script to execute. And scripts are stopped with the `END` command.
+
+```vb
+CLS
+...
+END
+```
+
+Line numbers (usually going up in 10s), are optional. In BASIC, you can print to the screen with `PRINT`, you concatenate strings with a `;` 
 
 ```vb
 PRINT "Hello World"
 PRINT "Hello ";name;" nice to meet you!"
 ```
 
-You add comments with the `REM`, or remark command.
+You add comments with the `REM`, or remark command. 
 
 ```vb
 REM This program is SUPER cool
@@ -93,6 +102,52 @@ You get input with `INPUT`, and store the result as a second parameter.
 ```vb
 INPUT "Your name: ", name
 ```
+
+In BASIC, there are numerous variable types, but the two main ones are numbers and strings. You declare a string with `name$`, and a number with `name%`.
+
+```vb
+10 INPUT "Number 1: ", num1%
+20 INPUT "Number 2: ", num2%
+30 sum% = num1% + num2%
+40 PRINT "Number 1 + Number 2 = "; sum%
+```
+
+```vb
+10 INPUT "First name: ", firstName$
+20 INPUT "Second name: ", secondName$
+30 fullName$ = firstName$ + " " + secondName$
+40 PRINT "Full name: "; fullName$
+```
+
+The `GOTO` command works as you would expect. Just going to that line and continuing on from there. For example, we could make an infinite loop by writing this:
+
+```vb
+10 PRINT ":3"
+20 GOTO 10
+```
+
+You can also jump to a line by using its label. You can label a line, and `GOTO` it like such:
+
+```vb
+hi:
+PRINT "Hiiiiiii :3"
+
+GOTO hi
+```
+
+This would also run in an infinite loop. You could alternatively use the `GOSUB` command, which works more like a function.
+
+```vb
+10 sayHello:
+20 REM Example sub
+30 PRINT "nrrp purr meow :3"
+40 RETURN
+50 GOSUB sayHello
+```
+
+After line `30` has been run, it will return to the line after the `GOSUB`, meaning that this wouldn't run in a loop.
+
+And that was the basic BASIC syntax.
 
 ## Sources
 
@@ -127,13 +182,12 @@ INPUT "Your name: ", name
 - [Time sharing](https://en.wikipedia.org/wiki/Time-sharing?useskin=vector) – Wikipedia
 - [Developer Survey](https://survey.stackoverflow.co/2023/#most-popular-technologies-language) – Stack Overflow
 - [Programming in BASIC](https://lateblt.tripod.com/basic.htm) – Lateblt @ Tripod.com
-
-## Languages to do
+## Languages to do:
 
 1. Assembly (1949)
 2. ~~Fortran (1957)~~
 3. ~~COBOL (1959)~~
-4. BASIC (1964) [DOING NOW]
+4. ~~BASIC (1964)~~
 5. Pascal (1970)
 6. SQL (1974)
 7. C++ (1983)
