@@ -30,7 +30,7 @@ Fortran is known for its '[array](https://en.wikipedia.org/wiki/Array_(data_stru
 
 Fortran 2003 and later introduced modern programming features such as [object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming?useskin=vector), based on the concepts of objects that can contain data and code. Modern Fortran also has good [interoperability](https://en.wikipedia.org/wiki/Fortran?useskin=vector#:~:text=Interoperability%20with%20the%20C%20programming%20language) with other programming languages. Making it easier to integrate Fortran code with [C](https://en.wikipedia.org/wiki/C_(programming_language)?useskin=vector), [C++](https://en.wikipedia.org/wiki/C%2B%2B?useskin=vector), and others.
 
-Fortran's influence in the history of programming has been substantial, indirectly inspiring the development of later languages such as [BASIC](https://en.wikipedia.org/wiki/BASIC) & [C](https://en.wikipedia.org/wiki/C_(programming_language)?useskin=vector). It is being updated to this day, with the latest stable release (at time of recording) being in 2018. Its extensive usage in legacy systems and its specialized features for scientific and high-performance computing mean that Fortran will likely continue to be used by scientists and engineers for decades to come.
+Fortran's influence in the history of programming has been substantial, indirectly inspiring the development of later languages such as [BASIC](https://en.wikipedia.org/wiki/BASIC) & [C](https://en.wikipedia.org/wiki/C_(programming_language)?useskin=vector). It is being updated to this day, with the latest stable release (at time of recording) being in 2018. It's used by almost 1% of developers, according to the 2023 Stack Overflow Developer Survey. And due to its use in scientific computing and legacy systems, it's not going anywhere.
 
 ## [COBOL](https://en.wikipedia.org/wiki/COBOL?useskin=vector)
 
@@ -39,6 +39,8 @@ In the late 1950s, programming was obscenely expensive. A survey found that with
 On the 8th of April 1959, [Mary Hawes](https://en.wikipedia.org/wiki/Mary_Hawes), called a meeting, to organize a formal meeting on 'common business languages'. At the meeting, the group asked the [Department of Defence](https://en.wikipedia.org/wiki/United_States_Department_of_Defense) to sponsor the creation of what would become [COBOL](https://en.wikipedia.org/wiki/COBOL?useskin=vector), they agreed.
 
 Grace Hopper is often referred to as 'The Mother of COBOL', and for good reason. She served as a technical consultant to the committee that decided on the creation of COBOL. COBOL was even based on her language, FLOW-MATIC, extending it with ideas from the IBM equivalent, [COMORAN](https://en.wikipedia.org/wiki/COMTRAN "COMTRAN"). Not only did FLOW-MATIC shape the development of COBOL, it was also the **first** English-like data processing language, whatever that means.
+
+### Syntax
 
 A COBOL program is structured into four essential [divisions](https://www.tutorialspoint.com/cobol/cobol_program_structure.htm#:~:text=Divisions), each serving a specific purpose in organizing the code.
 
@@ -50,26 +52,50 @@ After that, the `DATA DIVISION`, arguably one of the most crucial sections of a 
 
 Finally, we have the `PROCEDURE DIVISION`, which contains the actual logic of the COBOL program. Here, you'll write the logic for the program, such as calculations, input/output operations, and if/else statements. You can use statements, including `DISPLAY` to print output to the screen, or `IF`, `ELSE`, and `END-IF` to make decisions.
 
+COBOL is, to this day, a very commonly used language, with 0.66% of respondents to the Developer Survey, saying they used it. With the sheer quantity of COBOL legacy code still in use, it doesn't look like COBOL is going anywhere, anytime soon.
+
 ## [BASIC](https://en.wikipedia.org/wiki/BASIC?useskin=vector#Origin)
 
 > “BASIC, or 'Beginners' All-purpose Symbolic Instruction Code', is a family of general-purpose, high-level programming languages designed for ease of use.”
-> <cite> — Wikipedia</cite>
+> _—_ _Wikipedia_
 
 It was created in 1963, by Thomas Kurtz and John Kemeny, at Dartmouth College, with the goal of enabling non-scientific students to use computers. At the time, nearly all computers needed custom software, which only professionals tended to learn.
 
 Existing languages were “too tricky”, for example, Fortran had an “almost impossible-to-memorize convention for specifying a loop”. Kemeny and Kurtz agreed that it was very important for students outside STEM fields to be able to write code. Their vision was for every student to be able to access a computer, and any staff should be able to use a computer in the classroom.
 
-Another problem with existing computing was a lack of “immediate feedback”. Computers used [batch processing](https://en.wikipedia.org/wiki/Batch_processing?useskin=vector), where programs are run in batches at scheduled times. This meant that people had to wait a long time to see the output and if their code contained any code. Luckily, John **McCarthy** had the solution: time-sharing! 
+Another problem with existing computing was a lack of “immediate feedback”. Computers used [batch processing](https://en.wikipedia.org/wiki/Batch_processing?useskin=vector), where programs are run in batches at scheduled times. This meant that people had to wait a long time to see the output and if their code contained any code. Luckily, John **McCarthy** had the solution: time-sharing!
 
 The concept of time-sharing is claimed to have been authored by Robert Dodds in 1949, but the term wasn't used until 1958, by Bob Bemer. Time-sharing is where a machine divides its processing time between all the users, making it behave more like everyone having a slower computer to themselves. This meant that small scripts could run in just a few seconds, a massive step up from batch processing.
 
-The first version of BASIC was written by Kemeny. It was heavily inspired by FORTRAN II, many commands were similar or identical to Fortran. However, the syntax was changed wherever they thought it could be improved. For example, the “impossible to memorize" loop was changed to be easier to remember. This, and many more changes, helped make BASIC much easier whilst still resembling Fortran. 
+The first version of BASIC was written by Kemeny. It was heavily inspired by FORTRAN II, many commands were similar or identical to Fortran. However, the syntax was changed wherever they thought it could be improved. For example, the “impossible to memorize" loop was changed to be easier to remember. This, and many more changes, helped make BASIC much easier whilst still resembling Fortran.
 
 The project was given a $300k grant by the National Science Foundation. The money went to wards buying a computer for processing and a real-time processor to handle the teleprinters used for input and output. A dozen undergrads worked on it for about a year. Writing the DTSS system and the compiler, the first version was officially released in May 1964.
 
-The usage at Dartmouth increased rapidly, with the CPU needing to be replaced twice. By 1970 there were hundreds of people connected to said computers, some remotely. The designers, wanting more people to adopt the language, made it completely free. They put a lot of effort into promoting the language, and BASIC would go on to be hugely popular, and went on to inspire Visual Basic. 
+The usage at Dartmouth increased rapidly, with the CPU needing to be replaced twice. By 1970 there were hundreds of people connected to said computers, some remotely. The designers, wanting more people to adopt the language, made it completely free. They put a lot of effort into promoting the language, and BASIC would go on to be hugely popular, and went on to inspire [Visual Basic](https://en.wikipedia.org/wiki/Visual_Basic_(classic)?useskin=vector).
+
+### [Syntax](https://lateblt.tripod.com/basic.htm)
+
+In BASIC you can print to the screen with `PRINT`, you concatenate strings with a `;`
+
+```vb
+PRINT "Hello World"
+PRINT "Hello ";name;" nice to meet you!"
+```
+
+You add comments with the `REM`, or remark command.
+
+```vb
+REM This program is SUPER cool
+```
+
+You get input with `INPUT`, and store the result as a second parameter.
+
+```vb
+INPUT "Your name: ", name
+```
 
 ## Sources
+
 - [The History of Computers](https://www.bricsys.com/en-gb/blog/who-invented-computers) - Bricsys
 - [Computer](https://en.wikipedia.org/wiki/Computer) – Wikipedia
 - [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) – Wikipedia
@@ -96,7 +122,34 @@ The usage at Dartmouth increased rapidly, with the CPU needing to be replaced tw
 - [Turing test](https://en.wikipedia.org/wiki/Turing_test?useskin=vector) – Wikipedia
 - [Grace Hopper](https://en.wikipedia.org/wiki/Grace_Hopper?useskin=vector) – Wikipedia
 - [Computer (occupation)](https://en.wikipedia.org/w/index.php?title=Computer_%28occupation%29&useskin=vector)  – Wikipedia
-- [Basic](https://en.wikipedia.org/wiki/BASIC?useskin=vector) – Wikipedia
+- [BASIC](https://en.wikipedia.org/wiki/BASIC?useskin=vector) – Wikipedia
+- [Batch processing](https://en.wikipedia.org/wiki/Batch_processing?useskin=vector) – Wikipedia
+- [Time sharing](https://en.wikipedia.org/wiki/Time-sharing?useskin=vector) – Wikipedia
+- [Developer Survey](https://survey.stackoverflow.co/2023/#most-popular-technologies-language) – Stack Overflow
+- [Programming in BASIC](https://lateblt.tripod.com/basic.htm) – Lateblt @ Tripod.com
 
-# THIS IS NOT FINISHED
-it's set as not a draft so i can show it to people, im working on BASIC rn
+## Languages to do
+
+1. Assembly (1949)
+2. ~~Fortran (1957)~~
+3. ~~COBOL (1959)~~
+4. BASIC (1964) [DOING NOW]
+5. Pascal (1970)
+6. SQL (1974)
+7. C++ (1983)
+8. OBJ-C (1984)
+9. Python (1991)
+10. Lua (1993)
+11. R (1993)
+12. Ruby (1995)
+13. Java (1995)
+14. PHP (1995)
+15. JavaScript (1995)
+16. HTML/CSS (1993/1996)
+17. C# (2000)
+18. Swift (2014)
+19. Bash (1989)
+20. Rust (2010)
+21. Go (2009)
+22. Kotlin (2011)
+23. Dart (2011)
