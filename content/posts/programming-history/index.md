@@ -3,7 +3,6 @@ title: "The History of Programming Languages"
 date: 2023-07-29
 draft: false
 ---
-
 The word computer was in use from the early 17th century. Originally, a computer was a job, a person who performed calculations.
 
 The first programmable [computer](https://en.wikipedia.org/wiki/Computer?useskin=vector#firstHeading) was invented by [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) in 1822, called the [Difference Engine](https://en.wikipedia.org/wiki/Difference_engine?useskin=vector). Which was designed to tabulate [polynomial](https://en.wikipedia.org/wiki/Polynomial) functions. Charles would go on to design many more computers before his death in 1871, sadly he was never able to complete construction of his machines due to conflicts with his chief engineer and inadequate funding.
@@ -16,19 +15,21 @@ Another influential figure in this field was [Alan Turing](https://en.wikipedia.
 
 However, it wasn't until the mid-20th century that the first true programming languages were developed. The first one we will be looking at is Fortran.
 
+By the way, this list won't include binary or anything because that's what's a computer language, not a programming language.
+
 ## [Fortran](https://en.wikipedia.org/wiki/Fortran?useskin=vector)
 
 Fortran was originally developed by [IBM](https://en.wikipedia.org/wiki/IBM "IBM") in the 1950s, made as a more practical alternative to assembly. Fortran got its name from 'formula translation', and dominated scientific computing. It is popular for high performance computing, and has been in use for decades in areas such as weather, fluid dynamics, geophysics, and more.
 
-The [Fortran syntax](https://ourcodingclub.github.io/tutorials/fortran-intro/#basics) seems very alien compared to modern, dynamic languages like Python and R. You have to explicitly start and end the program, and optionally give it a name. Then you (usually) write implicit none, as without it, by default, all variables starting with i, j, k, l, m, and m are assumed to be integers and the others 'real' arguments.
+The [Fortran syntax](https://ourcodingclub.github.io/tutorials/fortran-intro/#basics) seems very alien compared to modern, dynamic languages like Python and R. You have to explicitly start and end the program, and optionally give it a name. Then you (usually) write implicit none, as without it, by default, all variables starting with i, j, k, l, n, and m are assumed to be integers and the others 'real' arguments.
 
-Variables are typically declared at the top of the program, with `INTEGER`, for whole numbers, `REAL`, for non integer numbers, and `LOGICAL` for boolean values. You declare strings with the character keyword, but have to define the length in characters. Although t's worth noting that modern Fortran also supports concise and flexible variable declarations.
+Variables are typically declared at the top of the program, with `INTEGER`, for whole numbers, `REAL`, for non integer numbers, and `LOGICAL` for boolean values. You declare strings with the character keyword, but have to define the length in characters. Although, it's worth noting that modern Fortran also supports concise and flexible variable declarations.
 
 The syntax for if statements is quite similar to that of VBA, as you have to write `THEN`, and `END IF`. Fortran uses `READ`, to get input from the keyboard, and `WRITE` to print to the screen. It's mainly designed for mathematical operations, and has many built-in functions for this, like `+, -, *, /` and `SQRT()`, as well as an extensive library of functions, and routines for more complex calculations. This is one of its main strengths in scientific computing.
 
-Fortran is known for its '[array](https://en.wikipedia.org/wiki/Array_(data_structure)?useskin=vector) operations', or the ability to perform operations on entire arrays at once, without needing to use a loop. These are highly efficient and useful for scientific computing and working with large data sets. Another popular feature is its native [parallel computing](https://en.wikipedia.org/wiki/Parallel_computing?useskin=vector) capabilities. Parallel computing, which is a method of computing tasks by breaking them down into smaller chunks that can be processed simultaneously on different units, significantly improving performance.
+Fortran is known for its '[array](https://en.wikipedia.org/wiki/Array_(data_structure)?useskin=vector) operations', or the ability to perform operations on entire arrays at once, without needing to use a loop. These are highly efficient and useful for scientific computing and working with large data sets. Another popular feature is its native [parallel computing](https://en.wikipedia.org/wiki/Parallel_computing?useskin=vector) capabilities. Parallel computing, which is a method of computing tasks by breaking them down into smaller chunks that can be processed simultaneously on different units, significantly improves performance.
 
-Fortran 2003 and later introduced modern programming features such as [object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming?useskin=vector), based on the concepts of objects that can contain data and code. Modern Fortran also has good [interoperability](https://en.wikipedia.org/wiki/Fortran?useskin=vector#:~:text=Interoperability%20with%20the%20C%20programming%20language) with other programming languages. Making it easier to integrate Fortran code with [C](https://en.wikipedia.org/wiki/C_(programming_language)?useskin=vector),[ C++](https://en.wikipedia.org/wiki/C%2B%2B?useskin=vector), and others.
+Fortran 2003 and later introduced modern programming features such as [object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming?useskin=vector), based on the concepts of objects that can contain data and code. Modern Fortran also has good [interoperability](https://en.wikipedia.org/wiki/Fortran?useskin=vector#:~:text=Interoperability%20with%20the%20C%20programming%20language) with other programming languages. Making it easier to integrate Fortran code with [C](https://en.wikipedia.org/wiki/C_(programming_language)?useskin=vector), [C++](https://en.wikipedia.org/wiki/C%2B%2B?useskin=vector), and others.
 
 Fortran's influence in the history of programming has been substantial, indirectly inspiring the development of later languages such as [BASIC](https://en.wikipedia.org/wiki/BASIC) & [C](https://en.wikipedia.org/wiki/C_(programming_language)?useskin=vector). It is being updated to this day, with the latest stable release (at time of recording) being in 2018. It's used by almost 1% of developers, according to the 2023 Stack Overflow Developer Survey. And due to its use in scientific computing and legacy systems, it's not going anywhere.
 
@@ -36,17 +37,17 @@ Fortran's influence in the history of programming has been substantial, indirect
 
 In the late 1950s, programming was obscenely expensive. A survey found that with a data processing instillation, the programming alone cost $800,000 on average. Someone **HAD** to do something. It was getting out of hand. Luckily, it also found that—thank God—if a business-oriented language were used, it would be much cheaper and faster. Hooray!
 
-On the 8th of April 1959, [Mary Hawes](https://en.wikipedia.org/wiki/Mary_Hawes), called a meeting, to organize a formal meeting on 'common business languages'. At the meeting, the group asked the [Department of Defence](https://en.wikipedia.org/wiki/United_States_Department_of_Defense) to sponsor the creation of what would become [COBOL](https://en.wikipedia.org/wiki/COBOL?useskin=vector), they agreed.
+On the 8th of April 1959, [Mary Hawes](https://en.wikipedia.org/wiki/Mary_Hawes), called a meeting, to organize a formal disussion on 'common business languages'. The group asked the [Department of Defence](https://en.wikipedia.org/wiki/United_States_Department_of_Defense) to sponsor the creation of what would become [COBOL](https://en.wikipedia.org/wiki/COBOL?useskin=vector), they agreed.
 
-Grace Hopper is often referred to as 'The Mother of COBOL', and for good reason. She served as a technical consultant to the committee that decided on the creation of COBOL. COBOL was even based on her language, FLOW-MATIC, extending it with ideas from the IBM equivalent, [COMORAN](https://en.wikipedia.org/wiki/COMTRAN "COMTRAN"). Not only did FLOW-MATIC shape the development of COBOL, it was also the **first** English-like data processing language, whatever that means. 
+Grace Hopper is often referred to as 'The Mother of COBOL', and for good reason. She served as a technical consultant to the committee that decided on the creation of COBOL. COBOL was even based on her language, FLOW-MATIC, extending it with ideas from the IBM equivalent, [COMORAN](https://en.wikipedia.org/wiki/COMTRAN "COMTRAN"). Not only did FLOW-MATIC shape the development of COBOL, it was also the **first** English-like data processing language, whatever that means.
 
 ### Syntax
 
-A COBOL program is structured into four essential [divisions](https://www.tutorialspoint.com/cobol/cobol_program_structure.htm#:~:text=Divisions), each serving a specific purpose in organizing the code. 
+A COBOL program is structured into four essential [divisions](https://www.tutorialspoint.com/cobol/cobol_program_structure.htm#:~:text=Divisions), each serving a specific purpose in organizing the code.
 
 The first and only mandatory division is the `IDENTIFICATION DIVISION`, used by the compiler and readers to identify the program. You **must** set a `PROGRAM-ID`, providing a name for your COBOL program.
 
-The next division is the `ENVIRONMENT DIVISION`, where you specify information about the system on which the program was compiled and the system on which it will be executed. Additionally, it allows you to define external data sets and files used by the program. This provides the necessary context for the program's environment.
+The next division is the `ENVIRONMENT DIVISION`, where you specify information about the system on which the program was compiled and the system on which it will be executed. Additionally, it allows you todefine external data sets and files used by the program. This provides the necessary context for the program's environment.
 
 After that, the `DATA DIVISION`, arguably one of the most crucial sections of a COBOL program. In this division, you describe the data structures used by the program, including the layout and characteristics of data files, working storage variables, and records. COBOL's strength lies in its ability to handle vast amounts of data, making the `DATA DIVISION` integral to handling large-scale business processes.
 
@@ -63,20 +64,19 @@ It was created in 1963, by Thomas Kurtz and John Kemeny, at Dartmouth College, w
 
 Existing languages were “too tricky”, for example, Fortran had an “almost impossible-to-memorize convention for specifying a loop”. Kemeny and Kurtz agreed that it was very important for students outside STEM fields to be able to write code. Their vision was for every student to be able to access a computer, and any staff should be able to use a computer in the classroom.
 
-Another problem with existing computing was a lack of “immediate feedback”. Computers used [batch processing](https://en.wikipedia.org/wiki/Batch_processing?useskin=vector), where programs are run in batches at scheduled times. This meant that people had to wait a long time to see the output and if their code contained any code. Luckily, John **McCarthy** had the solution: time-sharing! 
+Another problem with existing computing was a lack of “immediate feedback”. Computers used [batch processing](https://en.wikipedia.org/wiki/Batch_processing?useskin=vector), where programs are run in batches at scheduled times. This meant that people had to wait a long time to see the output and if their code contained any bugs. Luckily, John **McCarthy** had the solution: time-sharing!
 
 The concept of time-sharing is claimed to have been authored by Robert Dodds in 1949, but the term wasn't used until 1958, by Bob Bemer. Time-sharing is where a machine divides its processing time between all the users, making it behave more like everyone having a slower computer to themselves. This meant that small scripts could run in just a few seconds, a massive step up from batch processing.
 
-The first version of BASIC was written by Kemeny. It was heavily inspired by FORTRAN II, many commands were similar or identical to Fortran. However, the syntax was changed wherever they thought it could be improved. For example, the “impossible to memorize" loop was changed to be easier to remember. This, and many more changes, helped make BASIC much easier whilst still resembling Fortran. 
+The first version of BASIC was written by Kemeny. It was heavily inspired by FORTRAN II, many commands were similar or identical to Fortran. However, the syntax was changed wherever they thought it could be improved. For example, the “impossible to memorize” loop was changed to be easier to remember. This, and many more changes, helped make BASIC much easier whilst still resembling Fortran.
 
-The project was given a $300k grant by the National Science Foundation. The money went to wards buying a computer for processing and a real-time processor to handle the teleprinters used for input and output. A dozen undergrads worked on it for about a year. Writing the DTSS system and the compiler, the first version was officially released in May 1964.
+The project was given a $300k grant by the National Science Foundation. The money went towards, buying a computer for processing and a real-time processor to handle the teleprinters used for input and output. A dozen undergrads worked on it for about a year. Writing the DTSS system and the compiler, the first version was officially released in May 1964.
 
 The usage at Dartmouth increased rapidly, with the CPU needing to be replaced twice. By 1970 there were hundreds of people connected to said computers, some remotely. The designers, wanting more people to adopt the language, made it completely free. They put a lot of effort into promoting the language, and BASIC would go on to be hugely popular, and went on to inspire [Visual Basic](https://en.wikipedia.org/wiki/Visual_Basic_(classic)?useskin=vector).
+
 ### [Syntax](https://lateblt.tripod.com/basic.htm)
 
-_(NOTE: Due to all the BASIC dialects, it was rather hard to check if this code is valid. ChatGPT says it is, I'm pretty sure this is QBASIC, but compilers claiming to be for QBASIC don't work. :/ )_ 
-
-Usually, a script will start with `CLS`, or clear screen. This will simply remove all other text from the command prompt, leaving you with a black slate, for your script to execute. And scripts are stopped with the `END` command.
+_(NOTE: This is the syntax for QBASIC.)_ Usually, a script will start with `CLS`, or clear screen. This will simply remove all other text from the command prompt, leaving you with a black slate, for your script to execute. And scripts are stopped with the `END` command.
 
 ```vb
 CLS
@@ -84,14 +84,14 @@ CLS
 END
 ```
 
-Line numbers (usually going up in 10s), are optional. In BASIC, you can print to the screen with `PRINT`, you concatenate strings with a `;` 
+Line numbers (usually going up in 10s), are optional. In BASIC, you can print to the screen with `PRINT`, you concatenate strings with a `;`
 
 ```vb
 PRINT "Hello World"
 PRINT "Hello ";name;" nice to meet you!"
 ```
 
-You add comments with the `REM`, or remark command. 
+You add comments with the `REM`, or remark command.
 
 ```vb
 REM This program is SUPER cool
@@ -145,9 +145,11 @@ This would also run in an infinite loop. You could alternatively use the `GOSUB`
 50 GOSUB sayHello
 ```
 
-After line `30` has been run, it will return to the line after the `GOSUB`, meaning that this wouldn't run in a loop.
+After line `30` has been run, it will return to the line after the `GOSUB`, meaning that this wouldn't run in a loop. And that was the basic BASIC syntax.
 
-And that was the basic BASIC syntax.
+## Pascal
+
+Releasing in 1970, and named after French mathematician Blaise Pascal, it was intended to encourage good programming practices with structured programming and data structuring. It was designed by Niklaus Wirth who wanted to improve an existing language called ALGOL 60, and eventually created ALGOL W. However, not everyone liked the changes he made, and development stopped. Later, in 1968, he started work on an improved version of ALGOL W, which he named Pascal.
 
 ## Sources
 
@@ -182,13 +184,15 @@ And that was the basic BASIC syntax.
 - [Time sharing](https://en.wikipedia.org/wiki/Time-sharing?useskin=vector) – Wikipedia
 - [Developer Survey](https://survey.stackoverflow.co/2023/#most-popular-technologies-language) – Stack Overflow
 - [Programming in BASIC](https://lateblt.tripod.com/basic.htm) – Lateblt @ Tripod.com
-## Languages to do:
+- [Pascal](https://en.wikipedia.org/wiki/Pascal_(programming_language)?useskin=vector) – Wikipedia
+
+## Languages to do
 
 1. Assembly (1949)
 2. ~~Fortran (1957)~~
 3. ~~COBOL (1959)~~
 4. ~~BASIC (1964)~~
-5. Pascal (1970)
+5. Pascal (1970) [WORKING ON NOW]
 6. SQL (1974)
 7. C++ (1983)
 8. OBJ-C (1984)
