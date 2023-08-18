@@ -1,6 +1,6 @@
 ---
 title: "The History of Programming Languages"
-date: 2023-07-29
+date: 2023-08-18
 draft: false
 ---
 The word computer was in use from the early 17th century. Originally, a computer was a job, a person who performed calculations.
@@ -188,7 +188,6 @@ Releasing in 1970, and named after French mathematician Blaise Pascal, it was in
 
 ## Languages to do
 
-1. Assembly (1949)
 2. ~~Fortran (1957)~~
 3. ~~COBOL (1959)~~
 4. ~~BASIC (1964)~~
