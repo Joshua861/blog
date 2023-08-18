@@ -67,10 +67,6 @@ Another popular theory is that the manuscript contains nothing of meaning, that 
 
 Over the years, many people have claimed to have deciphered the text, but none of these efforts have been successful so far.
 
-## Outro
-
-So that was the Voynich manuscript. I hope you found this interesting and learnt something. I've left links to all everything used in the description, and some things you should check out if you want to learn more. I'd especially recommend you read the Wikipedia article, as that's where i got most of the information for this video.
-
 ## Useful links
 
 [Wikipedia article](https://en.wikipedia.org/wiki/Voynich_manuscript?useskin=vector)<br>
