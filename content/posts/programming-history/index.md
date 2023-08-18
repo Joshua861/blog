@@ -183,7 +183,7 @@ Releasing in 1970, and named after French mathematician Blaise Pascal, it was in
 <li><a href="https://en.wikipedia.org/wiki/Time-sharing?useskin=vector">Time sharing</a> – Wikipedia</li>
 <li><a href="https://survey.stackoverflow.co/2023/#most-popular-technologies-language">Developer Survey</a> – Stack Overflow</li>
 <li><a href="https://lateblt.tripod.com/basic.htm">Programming in BASIC</a> – Lateblt @ Tripod.com</li>
-<li><a href="https://en.wikipedia.org/wiki/Pascal_(programming_language">Pascal</a>?useskin=vector) – Wikipedia</li></ul></details>
+<li><a href="https://en.wikipedia.org/wiki/Pascal_(programming_language">Pascal</a> – Wikipedia</li></ul></details>
 <details><summary><h2 id="languages-to-do">Languages to do</h2></summary>
 <ol>
 <li><del>Fortran (1957)</del></li>
