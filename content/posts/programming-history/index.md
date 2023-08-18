@@ -152,7 +152,7 @@ After line `30` has been run, it will return to the line after the `GOSUB`, mean
 Releasing in 1970, and named after French mathematician Blaise Pascal, it was intended to encourage good programming practices with structured programming and data structuring. It was designed by Niklaus Wirth who wanted to improve an existing language called ALGOL 60, and eventually created ALGOL W. However, not everyone liked the changes he made, and development stopped. Later, in 1968, he started work on an improved version of ALGOL W, which he named Pascal.
 
 <details>
-    <summary>Sources</summary>
+    <summary><h2>Sources</h2></summary>
     <ul>
 <li><a href="https://www.bricsys.com/en-gb/blog/who-invented-computers">The History of Computers</a> - Bricsys</li>
 <li><a href="https://en.wikipedia.org/wiki/Computer">Computer</a> – Wikipedia</li>
@@ -189,27 +189,32 @@ Releasing in 1970, and named after French mathematician Blaise Pascal, it was in
 </ul>
 </details>
 
-## Languages to do
-
-2. ~~Fortran (1957)~~
-3. ~~COBOL (1959)~~
-4. ~~BASIC (1964)~~
-5. Pascal (1970) [WORKING ON NOW]
-6. SQL (1974)
-7. C++ (1983)
-8. OBJ-C (1984)
-9. Python (1991)
-10. Lua (1993)
-11. R (1993)
-12. Ruby (1995)
-13. Java (1995)
-14. PHP (1995)
-15. JavaScript (1995)
-16. HTML/CSS (1993/1996)
-17. C# (2000)
-18. Swift (2014)
-19. Bash (1989)
-20. Rust (2010)
-21. Go (2009)
-22. Kotlin (2011)
-23. Dart (2011)
+<details>
+    <summary>
+<h2 id="languages-to-do">Languages to do</h2>
+</summary>
+<ol>
+<li><del>Fortran (1957)</del></li>
+<li><del>COBOL (1959)</del></li>
+<li><del>BASIC (1964)</del></li>
+<li>Pascal (1970) [WORKING ON NOW]</li>
+<li>SQL (1974)</li>
+<li>C++ (1983)</li>
+<li>OBJ-C (1984)</li>
+<li>Python (1991)</li>
+<li>Lua (1993)</li>
+<li>R (1993)</li>
+<li>Ruby (1995)</li>
+<li>Java (1995)</li>
+<li>PHP (1995)</li>
+<li>JavaScript (1995)</li>
+<li>HTML/CSS (1993/1996)</li>
+<li>C# (2000)</li>
+<li>Swift (2014)</li>
+<li>Bash (1989)</li>
+<li>Rust (2010)</li>
+<li>Go (2009)</li>
+<li>Kotlin (2011)</li>
+<li>Dart (2011)</li>
+</ol>
+</details>
