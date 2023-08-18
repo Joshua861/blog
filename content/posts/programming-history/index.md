@@ -151,9 +151,7 @@ After line `30` has been run, it will return to the line after the `GOSUB`, mean
 
 Releasing in 1970, and named after French mathematician Blaise Pascal, it was intended to encourage good programming practices with structured programming and data structuring. It was designed by Niklaus Wirth who wanted to improve an existing language called ALGOL 60, and eventually created ALGOL W. However, not everyone liked the changes he made, and development stopped. Later, in 1968, he started work on an improved version of ALGOL W, which he named Pascal.
 
-<details>
-    <summary><h2>Sources</h2></summary>
-    <ul>
+<details><summary><h2>Sources</h2></summary><ul>
 <li><a href="https://www.bricsys.com/en-gb/blog/who-invented-computers">The History of Computers</a> - Bricsys</li>
 <li><a href="https://en.wikipedia.org/wiki/Computer">Computer</a> – Wikipedia</li>
 <li><a href="https://en.wikipedia.org/wiki/Charles_Babbage">Charles Babbage</a> – Wikipedia</li>
@@ -185,14 +183,8 @@ Releasing in 1970, and named after French mathematician Blaise Pascal, it was in
 <li><a href="https://en.wikipedia.org/wiki/Time-sharing?useskin=vector">Time sharing</a> – Wikipedia</li>
 <li><a href="https://survey.stackoverflow.co/2023/#most-popular-technologies-language">Developer Survey</a> – Stack Overflow</li>
 <li><a href="https://lateblt.tripod.com/basic.htm">Programming in BASIC</a> – Lateblt @ Tripod.com</li>
-<li><a href="https://en.wikipedia.org/wiki/Pascal_(programming_language">Pascal</a>?useskin=vector) – Wikipedia</li>
-</ul>
-</details>
-
-<details>
-    <summary>
-<h2 id="languages-to-do">Languages to do</h2>
-</summary>
+<li><a href="https://en.wikipedia.org/wiki/Pascal_(programming_language">Pascal</a>?useskin=vector) – Wikipedia</li></ul></details>
+<details><summary><h2 id="languages-to-do">Languages to do</h2></summary>
 <ol>
 <li><del>Fortran (1957)</del></li>
 <li><del>COBOL (1959)</del></li>
