@@ -3,6 +3,7 @@ title: "The History of Programming Languages"
 date: 2023-08-18
 draft: false
 ---
+
 The word computer was in use from the early 17th century. Originally, a computer was a job, a person who performed calculations.
 
 The first programmable [computer](https://en.wikipedia.org/wiki/Computer?useskin=vector#firstHeading) was invented by [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) in 1822, called the [Difference Engine](https://en.wikipedia.org/wiki/Difference_engine?useskin=vector). Which was designed to tabulate [polynomial](https://en.wikipedia.org/wiki/Polynomial) functions. Charles would go on to design many more computers before his death in 1871, sadly he was never able to complete construction of his machines due to conflicts with his chief engineer and inadequate funding.
@@ -151,62 +152,4 @@ After line `30` has been run, it will return to the line after the `GOSUB`, mean
 
 Releasing in 1970, and named after French mathematician Blaise Pascal, it was intended to encourage good programming practices with structured programming and data structuring. It was designed by Niklaus Wirth who wanted to improve an existing language called ALGOL 60, and eventually created ALGOL W. However, not everyone liked the changes he made, and development stopped. Later, in 1968, he started work on an improved version of ALGOL W, which he named Pascal.
 
-<details><summary><h2>Sources</h2></summary><ul>
-<li><a href="https://www.bricsys.com/en-gb/blog/who-invented-computers">The History of Computers</a> - Bricsys</li>
-<li><a href="https://en.wikipedia.org/wiki/Computer">Computer</a> – Wikipedia</li>
-<li><a href="https://en.wikipedia.org/wiki/Charles_Babbage">Charles Babbage</a> – Wikipedia</li>
-<li><a href="https://en.wikipedia.org/wiki/Difference_engine">Difference Engine</a> – Wikipedia</li>
-<li><a href="https://en.wikipedia.org/wiki/Polynomial">Polynomial</a> – Wikipedia</li>
-<li><a href="https://en.wikipedia.org/wiki/Fortran">Fortran</a> – Wikipedia</li>
-<li><a href="https://ourcodingclub.github.io/tutorials/fortran-intro/">Introduction to Fortran</a> – Our Coding Club</li>
-<li><a href="https://www.bottomscience.com/implicit-none-statement-how-to-use-it-fortran/">Implicit None Statement in Fortran</a> – Bottom Science</li>
-<li><a href="https://www.mainframestechhelp.com/tutorials/cobol/introduction.htm">Introduction to COBOL</a> – Mainframes Tech Help</li>
-<li><a href="https://scribe.rip/modern-mainframe/beginners-guide-cobol-made-easy-introduction-ecf2f611ac76">Beginner&#39;s Guide to COBOL Made Easy</a> – Scribe</li>
-<li><a href="https://www.tutorialspoint.com/cobol/index.htm">COBOL Tutorial</a> – TutorialsPoint</li>
-<li><a href="https://en.wikipedia.org/wiki/COBOL?useskin=vector#History_and_specification">COBOL</a> – Wikipedia</li>
-<li><a href="https://en.wikipedia.org/wiki/Parallel_computing?useskin=vector">Parallel computing</a> – Wikipedia</li>
-<li><a href="https://en.wikipedia.org/wiki/Object-oriented_programming?useskin=vector">OOP</a> – Wikipedia</li>
-<li><a href="https://www.ibm.com/docs/en/cobol-zos">COBOL Docs</a> – IBM</li>
-<li><a href="https://en.wikipedia.org/wiki/Analytical_engine?useskin=vector">Analytical Engine</a> – Wikipedia</li>
-<li><a href="https://en.wikipedia.org/wiki/Ada_Lovelace?useskin=vector">Ada Lovelace</a> – Wikipedia</li>
-<li><a href="https://en.wikipedia.org/wiki/Bernoulli_number">Bernoulli numbers</a> – Wikipedia</li>
-<li><a href="https://en.wikipedia.org/wiki/Turing_test?useskin=vector">Turing Test</a> – Wikipedia</li>
-<li><a href="https://en.wikipedia.org/wiki/Turing_machine?useskin=vector">Turing Machine</a> – Wikipedia</li>
-<li><a href="https://en.wikipedia.org/w/index.php?title=Alan_Turing&amp;useskin=vector">Alan Turing</a> – Wikipedia</li>
-<li><a href="https://en.wikipedia.org/wiki/Enigma_machine?useskin=vector">Enigma machine</a> – Wikipedia</li>
-<li><a href="https://en.wikipedia.org/wiki/Turing%27s_proof?useskin=vector">Turing&#39;s proof</a> – Wikipedia</li>
-<li><a href="https://en.wikipedia.org/wiki/Turing_test?useskin=vector">Turing test</a> – Wikipedia</li>
-<li><a href="https://en.wikipedia.org/wiki/Grace_Hopper?useskin=vector">Grace Hopper</a> – Wikipedia</li>
-<li><a href="https://en.wikipedia.org/w/index.php?title=Computer_%28occupation%29&amp;useskin=vector">Computer (occupation)</a>  – Wikipedia</li>
-<li><a href="https://en.wikipedia.org/wiki/BASIC?useskin=vector">BASIC</a> – Wikipedia</li>
-<li><a href="https://en.wikipedia.org/wiki/Batch_processing?useskin=vector">Batch processing</a> – Wikipedia</li>
-<li><a href="https://en.wikipedia.org/wiki/Time-sharing?useskin=vector">Time sharing</a> – Wikipedia</li>
-<li><a href="https://survey.stackoverflow.co/2023/#most-popular-technologies-language">Developer Survey</a> – Stack Overflow</li>
-<li><a href="https://lateblt.tripod.com/basic.htm">Programming in BASIC</a> – Lateblt @ Tripod.com</li>
-<li><a href="https://en.wikipedia.org/wiki/Pascal_(programming_language">Pascal</a> – Wikipedia</li></ul></details>
-<details><summary><h2 id="languages-to-do">Languages to do</h2></summary>
-<ol>
-<li><del>Fortran (1957)</del></li>
-<li><del>COBOL (1959)</del></li>
-<li><del>BASIC (1964)</del></li>
-<li>Pascal (1970) [WORKING ON NOW]</li>
-<li>SQL (1974)</li>
-<li>C++ (1983)</li>
-<li>OBJ-C (1984)</li>
-<li>Python (1991)</li>
-<li>Lua (1993)</li>
-<li>R (1993)</li>
-<li>Ruby (1995)</li>
-<li>Java (1995)</li>
-<li>PHP (1995)</li>
-<li>JavaScript (1995)</li>
-<li>HTML/CSS (1993/1996)</li>
-<li>C# (2000)</li>
-<li>Swift (2014)</li>
-<li>Bash (1989)</li>
-<li>Rust (2010)</li>
-<li>Go (2009)</li>
-<li>Kotlin (2011)</li>
-<li>Dart (2011)</li>
-</ol>
-</details>
+[Sources]({{< ref "/sources" >}}) | [Progress]({{< ref "/progress" >}})
