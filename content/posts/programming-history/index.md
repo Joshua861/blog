@@ -56,6 +56,13 @@ Finally, we have the `PROCEDURE DIVISION`, which contains the actual logic of th
 
 COBOL is, to this day, a very commonly used language, with 0.66% of respondents to the Developer Survey, saying they used it. With the sheer quantity of COBOL legacy code still in use, it doesn't look like COBOL is going anywhere, anytime soon.
 
+{{< mermaid >}}
+pie title % of people using different languages
+    "ppl that dont use cobol" : 99.33
+    "Cobol" : 0.66
+
+{{< /mermaid >}}
+
 ## [BASIC](https://en.wikipedia.org/wiki/BASIC?useskin=vector#Origin)
 
 > “BASIC, or 'Beginners' All-purpose Symbolic Instruction Code', is a family of general-purpose, high-level programming languages designed for ease of use.”
@@ -127,6 +134,13 @@ The `GOTO` command works as you would expect. Just going to that line and contin
 20 GOTO 10
 ```
 
+{{< mermaid >}}
+graph LR
+    A(Start) --> B["10 PRINT ':3'"]
+    B --> C["20 GOTO 10"]
+    C --> B
+{{< /mermaid >}}
+
 You can also jump to a line by using its label. You can label a line, and `GOTO` it like such:
 
 ```vb
@@ -152,4 +166,6 @@ After line `30` has been run, it will return to the line after the `GOSUB`, mean
 
 Releasing in 1970, and named after French mathematician Blaise Pascal, it was intended to encourage good programming practices with structured programming and data structuring. It was designed by Niklaus Wirth who wanted to improve an existing language called ALGOL 60, and eventually created ALGOL W. However, not everyone liked the changes he made, and development stopped. Later, in 1968, he started work on an improved version of ALGOL W, which he named Pascal.
 
+{{< lead >}}
 [Sources]({{< ref "/sources" >}}) | [Progress]({{< ref "/progress" >}})
+{{< /lead >}}
