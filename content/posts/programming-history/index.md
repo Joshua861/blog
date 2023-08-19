@@ -56,13 +56,6 @@ Finally, we have the `PROCEDURE DIVISION`, which contains the actual logic of th
 
 COBOL is, to this day, a very commonly used language, with 0.66% of respondents to the Developer Survey, saying they used it. With the sheer quantity of COBOL legacy code still in use, it doesn't look like COBOL is going anywhere, anytime soon.
 
-{{< mermaid >}}
-pie title % of people using different languages
-    "ppl that dont use cobol" : 99.33
-    "Cobol" : 0.66
-
-{{< /mermaid >}}
-
 ## [BASIC](https://en.wikipedia.org/wiki/BASIC?useskin=vector#Origin)
 
 > “BASIC, or 'Beginners' All-purpose Symbolic Instruction Code', is a family of general-purpose, high-level programming languages designed for ease of use.”
