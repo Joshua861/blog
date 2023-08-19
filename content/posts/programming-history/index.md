@@ -16,6 +16,16 @@ Another influential figure in this field was [Alan Turing](https://en.wikipedia.
 
 However, it wasn't until the mid-20th century that the first true programming languages were developed. The first one we will be looking at is Fortran.
 
+{{< mermaid >}}
+timeline
+	title History of computers
+	1600 : The word computer in use
+	1822 : First programmable computer
+	1837 : Analytical Engine
+	1871 : Charles Babbage dies
+	1950 : First programming languages
+{{< /mermaid >}}
+
 By the way, this list won't include binary or anything because that's what's a computer language, not a programming language.
 
 ## [Fortran](https://en.wikipedia.org/wiki/Fortran?useskin=vector)
