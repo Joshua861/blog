@@ -166,6 +166,62 @@ After line `30` has been run, it will return to the line after the `GOSUB`, mean
 
 Releasing in 1970, and named after French mathematician Blaise Pascal, it was intended to encourage good programming practices with structured programming and data structuring. It was designed by Niklaus Wirth who wanted to improve an existing language called ALGOL 60, and eventually created ALGOL W. However, not everyone liked the changes he made, and development stopped. Later, in 1968, he started work on an improved version of ALGOL W, which he named Pascal.
 
-{{< lead >}}
-[Sources]({{< ref "/sources" >}}) | [Progress]({{< ref "/progress" >}})
-{{< /lead >}}
+## Progress
+
+1. ~~Fortran (1957)~~
+2. ~~COBOL (1959)~~
+3. ~~BASIC (1964)~~
+4. Pascal (1970) [WORKING ON NOW]
+5. SQL (1974)
+6. C++ (1983)
+7. OBJ-C (1984)
+8. Python (1991)
+9. Lua (1993)
+10. R (1993)
+11. Ruby (1995)
+12. Java (1995)
+13. PHP (1995)
+14. JavaScript (1995)
+15. HTML/CSS (1993/1996)
+16. C# (2000)
+17. Swift (2014)
+18. Bash (1989)
+19. Rust (2010)
+20. Go (2009)
+21. Kotlin (2011)
+22. Dart (2011)
+
+## Sources
+
+- [The History of Computers](https://www.bricsys.com/en-gb/blog/who-invented-computers) - Bricsys
+- [Computer](https://en.wikipedia.org/wiki/Computer) – Wikipedia
+- [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) – Wikipedia
+- [Difference Engine](https://en.wikipedia.org/wiki/Difference_engine) – Wikipedia
+- [Polynomial](https://en.wikipedia.org/wiki/Polynomial) – Wikipedia
+- [Fortran](https://en.wikipedia.org/wiki/Fortran) – Wikipedia
+- [Introduction to Fortran](https://ourcodingclub.github.io/tutorials/fortran-intro/) – Our Coding Club
+- [Implicit None Statement in Fortran](https://www.bottomscience.com/implicit-none-statement-how-to-use-it-fortran/) – Bottom Science
+- [Introduction to COBOL](https://www.mainframestechhelp.com/tutorials/cobol/introduction.htm) – Mainframes Tech Help
+- [Beginner's Guide to COBOL Made Easy](https://scribe.rip/modern-mainframe/beginners-guide-cobol-made-easy-introduction-ecf2f611ac76) – Scribe
+- [COBOL Tutorial](https://www.tutorialspoint.com/cobol/index.htm) – TutorialsPoint
+- [COBOL](https://en.wikipedia.org/wiki/COBOL?useskin=vector#History_and_specification) – Wikipedia
+- [Parallel computing](https://en.wikipedia.org/wiki/Parallel_computing?useskin=vector) – Wikipedia
+- [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming?useskin=vector) – Wikipedia
+- [COBOL Docs](https://www.ibm.com/docs/en/cobol-zos) – IBM
+- [Analytical Engine](https://en.wikipedia.org/wiki/Analytical_engine?useskin=vector) – Wikipedia
+- [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace?useskin=vector) – Wikipedia
+- [Bernoulli numbers](https://en.wikipedia.org/wiki/Bernoulli_number) – Wikipedia
+- [Turing Test](https://en.wikipedia.org/wiki/Turing_test?useskin=vector) – Wikipedia
+- [Turing Machine](https://en.wikipedia.org/wiki/Turing_machine?useskin=vector) – Wikipedia
+- [Alan Turing](https://en.wikipedia.org/w/index.php?title=Alan_Turing&useskin=vector) – Wikipedia
+- [Enigma machine](https://en.wikipedia.org/wiki/Enigma_machine?useskin=vector) – Wikipedia
+- [Turing's proof](https://en.wikipedia.org/wiki/Turing%27s_proof?useskin=vector) – Wikipedia
+- [Turing test](https://en.wikipedia.org/wiki/Turing_test?useskin=vector) – Wikipedia
+- [Grace Hopper](https://en.wikipedia.org/wiki/Grace_Hopper?useskin=vector) – Wikipedia
+- [Computer (occupation)](https://en.wikipedia.org/w/index.php?title=Computer_%28occupation%29&useskin=vector)  – Wikipedia
+- [BASIC](https://en.wikipedia.org/wiki/BASIC?useskin=vector) – Wikipedia
+- [Batch processing](https://en.wikipedia.org/wiki/Batch_processing?useskin=vector) – Wikipedia
+- [Time sharing](https://en.wikipedia.org/wiki/Time-sharing?useskin=vector) – Wikipedia
+- [Developer Survey](https://survey.stackoverflow.co/2023/#most-popular-technologies-language) – Stack Overflow
+- [Programming in BASIC](https://lateblt.tripod.com/basic.htm) – Lateblt @ Tripod.com
+- [Pascal](https://en.wikipedia.org/wiki/Pascal_(programming_language)?useskin=vector) – Wikipedia
