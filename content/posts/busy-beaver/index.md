@@ -16,8 +16,7 @@ An *n*th busy beaver is a Turing machine that wins the *n*-state busy beaver gam
 The game gets exponential the more states, with there being (4*n* + 4)^2*n* different Turing machines it could be. To run the machine, put it in the starting position, with the cells all blank, and iterating the function until it halts, then the number of 1s on the tape is the score. If the machine doesn't halt, then the score can't be counted.
 
 {{< katex >}}
-((4n + 4)^{2n})
-{{< /katex >}}
+\\((4n + 4)^{2n}\\)
 
 The busy beaver function quantifies the max score you can get from a given busy beaver game. The busy beaver function grows faster than any other computable function, so that's cool.
 
