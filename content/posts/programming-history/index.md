@@ -83,11 +83,15 @@ The first version of BASIC was written by Kemeny. It was heavily inspired by FOR
 
 The project was given a $300k grant by the National Science Foundation. The money went towards, buying a computer for processing and a real-time processor to handle the teleprinters used for input and output. A dozen undergrads worked on it for about a year. Writing the DTSS system and the compiler, the first version was officially released in May 1964.
 
-The usage at Dartmouth increased rapidly, with the CPU needing to be replaced twice. By 1970 there were hundreds of people connected to said computers, some remotely. The designers, wanting more people to adopt the language, made it completely free. They put a lot of effort into promoting the language, and BASIC would go on to be hugely popular, and went on to inspire [Visual Basic](https://en.wikipedia.org/wiki/Visual_Basic_(classic)?useskin=vector).
+The usage at Dartmouth increased rapidly, with the CPU needing to be replaced twice. By 1970 there were hundreds of people connected to said computers, some remotely. The designers, wanting more people to adopt the language, made it completely free. They put a lot of effort into promoting the language, and BASIC would go on to be hugely popular and inspire [Visual Basic](https://en.wikipedia.org/wiki/Visual_Basic_(classic)?useskin=vector).
 
 ### [Syntax](https://lateblt.tripod.com/basic.htm)
 
-_(NOTE: This is the syntax for QBASIC.)_ Usually, a script will start with `CLS`, or clear screen. This will simply remove all other text from the command prompt, leaving you with a black slate, for your script to execute. And scripts are stopped with the `END` command.
+{{< alert >}}
+This is the syntax for QBASIC.
+{{< /alert >}}
+
+Usually, a script will start with `CLS`, or clear screen. This will simply remove all other text from the command prompt, leaving you with a blank slate, for your script to execute. And scripts are stopped with the `END` command.
 
 ```vb
 CLS
