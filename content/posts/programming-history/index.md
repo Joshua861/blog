@@ -5,7 +5,7 @@ draft: false
 ---
 
 {{< alert "youtube" >}}
-A video version of the intro + languages 1-3 is availible [here](https://youtu.be/fDprWJBT9HE?si=Dax4KIgUYR3NQ8oB).
+A video version of the intro + languages 1-3 is available [here](https://youtu.be/fDprWJBT9HE?si=Dax4KIgUYR3NQ8oB).
 {{< /alert >}}
 
 The word computer was in use from the early 17th century. Originally, a computer was a job, a person who performed calculations.
