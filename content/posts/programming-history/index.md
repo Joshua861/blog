@@ -4,6 +4,10 @@ date: 2023-08-18
 draft: false
 ---
 
+{{< alert "youtube" >}}
+A video version of the intro + languages 1-3 is availible [here](https://youtu.be/fDprWJBT9HE?si=Dax4KIgUYR3NQ8oB).
+{{< /alert >}}
+
 The word computer was in use from the early 17th century. Originally, a computer was a job, a person who performed calculations.
 
 The first programmable [computer](https://en.wikipedia.org/wiki/Computer?useskin=vector#firstHeading) was invented by [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) in 1822, called the [Difference Engine](https://en.wikipedia.org/wiki/Difference_engine?useskin=vector). Which was designed to tabulate [polynomial](https://en.wikipedia.org/wiki/Polynomial) functions. Charles would go on to design many more computers before his death in 1871, sadly he was never able to complete construction of his machines due to conflicts with his chief engineer and inadequate funding.
