@@ -1,4 +1,4 @@
 [submodule "themes/congo"]
 	path = themes/congo
-	url = https://github.com/jpanther/congo.git
+	url = https://github.com/joshua861/congo.git
 	branch = stable
