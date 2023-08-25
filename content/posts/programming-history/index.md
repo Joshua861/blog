@@ -177,8 +177,9 @@ After line `30` has been run, it will return to the line after the `GOSUB`, mean
 
 Releasing in 1970, and named after French mathematician Blaise Pascal, it was intended to encourage good programming practices with structured programming and data structuring. It was designed by Niklaus Wirth who wanted to improve an existing language called ALGOL 60, and eventually created ALGOL W. However, not everyone liked the changes he made, and development stopped. Later, in 1968, he started work on an improved version of ALGOL W, which he named Pascal.
 
-## Progress
+## Extras
 
+{{< details Progress >}}
 1. ~~Fortran (1957)~~
 2. ~~COBOL (1959)~~
 3. ~~BASIC (1964)~~
@@ -201,9 +202,9 @@ Releasing in 1970, and named after French mathematician Blaise Pascal, it was in
 20. Go (2009)
 21. Kotlin (2011)
 22. Dart (2011)
-
-## Sources
-
+{{< /details >}}
+<br>
+{{< details Sources >}}
 - [The History of Computers](https://www.bricsys.com/en-gb/blog/who-invented-computers) - Bricsys
 - [Computer](https://en.wikipedia.org/wiki/Computer) – Wikipedia
 - [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) – Wikipedia
@@ -236,3 +237,9 @@ Releasing in 1970, and named after French mathematician Blaise Pascal, it was in
 - [Developer Survey](https://survey.stackoverflow.co/2023/#most-popular-technologies-language) – Stack Overflow
 - [Programming in BASIC](https://lateblt.tripod.com/basic.htm) – Lateblt @ Tripod.com
 - [Pascal](https://en.wikipedia.org/wiki/Pascal_(programming_language)?useskin=vector) – Wikipedia
+{{< /details >}}
+<br>
+{{< details Video >}}
+<br>
+{{< youtube fDprWJBT9HE >}}
+{{</ details >}}
