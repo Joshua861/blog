@@ -1,0 +1,8 @@
+<details class="flex px-4 py-3 rounded-md bg-neutral-200 dark:bg-neutral-700">
+    <summary class="dark:text-neutral-300 font-bold">
+        {{ .Get 0 }}
+    </summary>
+    <span class="dark:text-neutral-300">
+        {{- .Inner | markdownify -}}
+    </span>
+</details>
