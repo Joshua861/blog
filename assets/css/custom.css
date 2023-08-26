@@ -2,6 +2,10 @@
 
 html {
   font-family: "Inter", sans-serif;
+
+  font-feature-settings: "liga", "calt", "case", "frac", "ccmp", "dlig", "ss01",
+    "ss02", "zero", "cv01", "cv04", "cv03", "cv02", "cv05", "cv06", "cv08",
+    "cv09", "cv11";
 }
 h1,
 h1 > a,
@@ -16,10 +20,6 @@ h5 > a,
 h6,
 h6 > a {
   font-weight: 900 !important;
-}
-
-a {
-  color: #cbd5e1 !important;
 }
 a::hover {
   background-color: #0000 !important;
