@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+html {
+  font-family: "Inter", sans-serif;
+}
+h1,
+h1 > a,
+h2,
+h2 > a,
+h3,
+h3 > a,
+h4,
+h4 > a,
+h5,
+h5 > a,
+h6,
+h6 > a {
+  font-weight: 900 !important;
+}
+
+a {
+  color: #cbd5e1 !important;
+}
+a::hover {
+  background-color: #0000 !important;
+}
