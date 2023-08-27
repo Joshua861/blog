@@ -9,7 +9,6 @@ colorScheme = "sapphire"
 defaultAppearance = "dark" # valid options: light or dark
 autoSwitchAppearance = true
 
-enableSearch = true
 enableCodeCopy = true
 enableImageLazyLoading = true
 
