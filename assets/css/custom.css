@@ -3,9 +3,9 @@
 html {
   font-family: "Inter", sans-serif;
 
-  font-feature-settings: "liga", "calt", "case", "frac", "ccmp", "dlig", "ss01",
+  /* font-feature-settings: "liga", "calt", "case", "frac", "ccmp", "dlig", "ss01",
     "ss02", "zero", "cv01", "cv04", "cv03", "cv02", "cv05", "cv06", "cv08",
-    "cv09", "cv11";
+    "cv09", "cv11"; */
 }
 h1,
 h1 > a,
