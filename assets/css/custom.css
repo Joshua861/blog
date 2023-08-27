@@ -1,9 +1,24 @@
+@import url("inter/inter.css");
+
 html {
   font-family: "Inter", sans-serif;
-
   font-feature-settings: "liga", "calt", "case", "frac", "ccmp", "dlig", "ss01",
     "ss02", "zero", "cv01", "cv04", "cv03", "cv02", "cv05", "cv06", "cv08",
     "cv09", "cv11";
+}
+:root {
+  font-family: "Inter", sans-serif;
+  font-feature-settings: "liga", "calt", "case", "frac", "ccmp", "dlig", "ss01",
+    "ss02", "zero", "cv01", "cv04", "cv03", "cv02", "cv05", "cv06", "cv08",
+    "cv09", "cv11";
+}
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: "Inter var", sans-serif;
+    font-feature-settings: "liga", "calt", "case", "frac", "ccmp", "dlig",
+      "ss01", "ss02", "zero", "cv01", "cv04", "cv03", "cv02", "cv05", "cv06",
+      "cv08", "cv09", "cv11";
+  }
 }
 h1,
 h1 > a,
