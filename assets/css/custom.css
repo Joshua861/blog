@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://rsms.me/inter/inter.css");
 
 html {
   font-family: "Inter", sans-serif;
 
-  /* font-feature-settings: "liga", "calt", "case", "frac", "ccmp", "dlig", "ss01",
+  font-feature-settings: "liga", "calt", "case", "frac", "ccmp", "dlig", "ss01",
     "ss02", "zero", "cv01", "cv04", "cv03", "cv02", "cv05", "cv06", "cv08",
-    "cv09", "cv11"; */
+    "cv09", "cv11";
 }
 h1,
 h1 > a,
