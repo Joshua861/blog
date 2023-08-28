@@ -20,8 +20,8 @@ The game gets exponential the more states, with there being (4*n* + 4)^2*n* diff
 
 The busy beaver function quantifies the max score you can get from a given busy beaver game. The busy beaver function grows faster than any other computable function, so that's cool.
 
-### Sources
-
+{{< details Sources >}}
 - [Turing Machines - LibreTexts](https://eng.libretexts.org/Bookshelves/Computer_Science/Programming_and_Computation_Fundamentals/Foundations_of_Computation_(Critchlow_and_Eck)/05%3A_Turing_Machines_and_Computability/5.01%3A_Turing_Machines)
 - [The Turing Machine - Wikipedia](https://en.wikipedia.org/wiki/Turing_machine?useskin=vector)
 - [Busy Beaver - Wikipedia](https://en.wikipedia.org/wiki/Busy_beaver?useskin=vector)
+{{< /details >}}
