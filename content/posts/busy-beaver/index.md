@@ -3,6 +3,7 @@ title: "The Busy Beaver Game"
 date: 2023-08-19
 draft: false
 ---
+{{< katex >}}
 
 Before delving into the concept of the busy beaver game, it's important to grasp the fundamentals of a Turing machine. A Turing machine serves as a mathematical representation of a device that manipulates symbols, often 1s and 0s, on an infinite tape divided into individual cells, each capable of holding a single symbol. The machine has a 'head' that can move left and right along the tape, reading and changing the symbol beneath it.
 
@@ -13,10 +14,7 @@ In the busy beaver game, the aim is to find a program, that produces the most ou
 
 An *n*th busy beaver is a Turing machine that wins the *n*-state busy beaver game, that writes the most 1s before halting. The winner of the 2 state game achieves 4 1s in 6 steps.
 
-The game gets exponential the more states, with there being (4*n* + 4)^2*n* different Turing machines it could be. To run the machine, put it in the starting position, with the cells all blank, and iterating the function until it halts, then the number of 1s on the tape is the score. If the machine doesn't halt, then the score can't be counted.
-
-{{< katex >}}
-\\((4n + 4)^{2n}\\)
+The game gets exponential the more states, with there being \\((4n + 4)^{2n}\\) different Turing machines it could be. To run the machine, put it in the starting position, with the cells all blank, and iterating the function until it halts, then the number of 1s on the tape is the score. If the machine doesn't halt, then the score can't be counted.
 
 The busy beaver function quantifies the max score you can get from a given busy beaver game. The busy beaver function grows faster than any other computable function, so that's cool.
 
