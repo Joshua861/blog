@@ -173,9 +173,9 @@ This would also run in an infinite loop. You could alternatively use the `GOSUB`
 
 After line `30` has been run, it will return to the line after the `GOSUB`, meaning that this wouldn't run in a loop. And that was the basic BASIC syntax.
 
-## Pascal
+## [C](https://en.wikipedia.org/w/index.php?title=C_%28programming_language%29&useskin=vector)
 
-Releasing in 1970, and named after French mathematician Blaise Pascal, it was intended to encourage good programming practices with structured programming and data structuring. It was designed by Niklaus Wirth who wanted to improve an existing language called ALGOL 60, and eventually created ALGOL W. However, not everyone liked the changes he made, and development stopped. Later, in 1968, he started work on an improved version of ALGOL W, which he named Pascal.
+C might be *the* most well known and influential programming language ever, and so much of the software we use every day was written (primarily) in C. Some you might recognize are: The fucking Linux kernel, Git, FFmpeg, OpenSSL, VLC media player, Unix, GCC, Python, GCC, Doom, Vim, Quake 1-3, Bash, GIMP, OpenGL, APACHE, PHP, SQLite, PostgreSQL, MySQL, and Nginx.
 
 ## Extras
 
@@ -183,7 +183,7 @@ Releasing in 1970, and named after French mathematician Blaise Pascal, it was in
 1. ~~Fortran (1957)~~
 2. ~~COBOL (1959)~~
 3. ~~BASIC (1964)~~
-4. Pascal (1970) [WORKING ON NOW]
+4. C (1972) [WORKING ON NOW]
 5. SQL (1974)
 6. C++ (1983)
 7. OBJ-C (1984)
