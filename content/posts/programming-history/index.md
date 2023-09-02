@@ -285,6 +285,84 @@ There is soooo much more to the C syntax, but those are the absolute basics.
 
 C has gone on to influence many other languages, such as C++, C#, Obj-C, Go, Java, JS, Julia, Perl, PHP, Python, Rust, Nim, and Zig. C still sees heavy use in operating systems, drivers, and apps, but usage has declined since C++ is often a better choice.
 
+## C++
+
+C++ is a high level, general purpose programming language, created by Bjarne Stroustrup, and first released in 1985. It is a superset of C, meaning that any valid C code is also valid C++ code. It has become more capable over time, with modern C++ supporting object-oriented programming, and classes.
+
+### History
+
+It all started in 1979, when Bjarne began work on 'C with Classes', when he started working at Bell Labs, he had the problem of analysing the Unix kernel, and set out to enhance C with features from another language, Simula, which had many features that were very useful for making software, but was too slow.
+
+Initially, he added features to the existing C compiler, like classes, strong typing, inlining, and default arguments. But in 1982 he developed a new compiler called Cfront which compiled C++ to C.
+
+## Bash
+
+Bash (or the *Bourne Again Shell*) is a Unix shell written by Brian Fox for the GNU Project. It was made as an open source replacement for the Bourne shell, hence the name. It was first released in 1989 is the default shell in most Linux distros, and was one of the first programs Linus Torvalds ported to Linux.
+
+The bash programming language can be extremely powerful, and is mainly used for automating tasks. The best part about Bash is that any command you can run in your terminal can also be run in a bash script, so the power of Bash is largely dependent on what packages you have installed.
+
+### Syntax
+
+You can run commands just like you would from your terminal.
+
+```bash
+echo "Hello World!" # prints hello world
+```
+
+You can set variables to a set value, or save the output of a command to use later.
+
+```bash
+name="Josh"
+age=100
+
+current_date=$(date) # saves the current date
+```
+
+There are also if, and else if statements.
+
+```bash
+if [ "$age" -ge 18 ]; then # -ge means greater than or equal
+	echo "You are an adult."
+else
+	echo "You are not an adult."
+fi # fi is used to end an if block
+```
+
+For loops can be used like this:
+
+```bash
+for i in {1..5}; do
+	echo "$i"
+done
+```
+
+Bash even lets you define functions.
+
+```bash
+greet() {
+	echo "Hello $1!"
+}
+
+greet "Josh" # Hello Josh!
+```
+
+You can get input with `read`.
+
+```bash
+read -p "What is your name? " name
+echo "Hello, $name"
+```
+
+Or anything else you can do from your terminal.
+
+```bash
+neofetch
+
+for i in {1..10}; do
+	echo "I use arch btw"
+done
+```
+
 ## Extras
 
 {{< details Progress >}}
