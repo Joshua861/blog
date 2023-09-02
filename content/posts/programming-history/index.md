@@ -183,7 +183,7 @@ C is a general-purpose programming language created by Dennis Ritchie in the 197
 
 C was originally a successor to the programming language B, which was also developed at Bell Labs, by Ken Thompson.
 
-Thompson developed B in the late 1960s. It was designed for writing system software for the Multics operating system, however it was quite limited. Dennis Richie saw the potential for improvement, so, in 1972, he started work on a new language. He called C. It was designed to be more efficient and versatile than its predecessor. With new features like data-types, and structured programming.
+Thompson developed B in the late 1960s. It was designed for writing system software for the Multics operating system, however it was quite limited. Dennis Richie saw the potential for improvement, so, in 1972, he started work on a new language. He called it C. It was designed to be more efficient and versatile than its predecessor. With new features like data-types, and structured programming.
 
 Due to this, C became the language of choice for developing the new Unix operating system, that was also being developed at Bell Labs. This made Unix highly portable, as C code could be adapted to various computer architectures.
 
