@@ -363,6 +363,12 @@ for i in {1..10}; do
 done
 ```
 
+## Lua
+
+Lua is a lightweight, high-level programming language primarily designed for embedding in applications due to its small size and ease of use. It has been used in various software applications, including Photoshop Lightroom, World of Warcraft, Angry Birds, Roblox, and Neovim.
+
+It was created in the early 1900s by a team of developers in Rio. Lua is very popular in the gaming industry due to its simplicity and speed.
+
 ## Extras
 
 {{< details Progress >}}
@@ -431,6 +437,8 @@ done
 - [Online C compiler](https://www.programiz.com/c-programming/online-compiler/) (for checking if my scripts were valid)
 - [C++](https://en.wikipedia.org/wiki/C%2B%2B) - Wikipedia
 - [Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)?useskin=vector) - Wikipedia
+- [About lua](https://www.lua.org/about.html)
+- [Lua (wikipedia)](https://en.wikipedia.org/wiki/Lua_(programming_language)?useskin=vector)
 {{< /details >}}
 <br>
 {{< details Video >}}
