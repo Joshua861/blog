@@ -423,6 +423,14 @@ done
 - [Developer Survey](https://survey.stackoverflow.co/2023/#most-popular-technologies-language) – Stack Overflow
 - [Programming in BASIC](https://lateblt.tripod.com/basic.htm) – Lateblt @ Tripod.com
 - [Pascal](https://en.wikipedia.org/wiki/Pascal_(programming_language)?useskin=vector) – Wikipedia
+- [C](https://en.wikipedia.org/w/index.php?title=C_%28programming_language%29&useskin=vector) – Wikipedia
+- [C in 100s](https://www.youtube.com/watch?v=U3aXWizDbQ4) – [Fireship](https://www.youtube.com/@Fireship)
+- [Programs written in C](https://www.quora.com/What-are-some-known-programs-written-in-C-1) (plus fact-checking on Wikipedia)
+- [Most famous programs written in C](https://www.reddit.com/r/C_Programming/comments/43c42c/most_famous_programs_written_in_c/) (plus fact-checking on Wikipedia)
+- [C tutorial (w3schools)](https://www.w3schools.com/c/)
+- [Online C compiler](https://www.programiz.com/c-programming/online-compiler/) (for checking if my scripts were valid)
+- [C++](https://en.wikipedia.org/wiki/C%2B%2B) - Wikipedia
+- [Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)?useskin=vector) - Wikipedia
 {{< /details >}}
 <br>
 {{< details Video >}}
