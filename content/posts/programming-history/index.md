@@ -175,7 +175,29 @@ After line `30` has been run, it will return to the line after the `GOSUB`, mean
 
 ## [C](https://en.wikipedia.org/w/index.php?title=C_%28programming_language%29&useskin=vector)
 
-C might be *the* most well known and influential programming language ever, and so much of the software we use every day was written (primarily) in C. Some you might recognize are: The fucking Linux kernel, Git, FFmpeg, OpenSSL, VLC media player, Unix, GCC, Python, GCC, Doom, Vim, Quake 1-3, Bash, GIMP, OpenGL, APACHE, PHP, SQLite, PostgreSQL, MySQL, and Nginx.
+C might be *the* most well known and influential programming language ever, and so much of the software we use every day was written (primarily) in C. Some you might recognize are: The fucking Linux kernel, Git, FFmpeg, OpenSSL, VLC media player, Unix, Python, GCC, Doom, Vim, Quake 1-3, Bash, GIMP, OpenGL, APACHE, PHP, SQLite, PostgreSQL, MySQL, and Nginx. It also went on to inspire many other languages, such as C++, C#, Obj-C, Go, Java, JS, Julia, Perl, PHP, Python, Rust, Nim, and Zig.
+
+C is a general-purpose programming language created by Dennis Ritchie in the 1970s, at Bell Labs, and is generally considered the first true high level programming language (meaning that it is closer to human language than machine code).
+
+### B & Unix
+
+C was originally a successor to the programming language B, which was also developed at Bell Labs, by Ken Thompson.
+
+Thompson developed B in the late 1960s. It was designed for writing system software for the Multics operating system, however it was quite limited. Dennis Richie saw the potential for improvement, so, in 1972, he started work on a new language. He called C. It was designed to be more efficient and versatile than its predecessor. With new features like data-types, and structured programming.
+
+Due to this, C became the language of choice for developing the new Unix operating system, that was also being developed at Bell Labs. This made Unix highly portable, as C code could be adapted to various computer architectures.
+
+### The C programming language (book)
+
+It's often referred to as the “K&R C” book, after its two authors, Dennis Ritchie and Brian Kernighan. The book teaches the C fundamentals, syntax, and best practices. Despite being published in 1978, it's still widely used and respected in the programming community, and considered a must-read for someone wanting to start C.
+
+### Features
+
+C is known for its low level control. Meaning that it is able to manipulate hardware and memory directly, giving programmers a high degree of control. Due to this, C is sometimes referred to as a “high-level assembly language”, due to its ability to interact closely with the hardware while still providing some abstraction compared to assembly languages. It doesn't have a garbage collector, meaning that it's up to the programmer to manage memory allocation and deallocation. This can be very powerful, and is partly responsible for C's famous fast speeds, but can lead to errors and memory leaks if done wrong.
+
+It is also very efficient, C code runs quickly with minimal resources. One of its main features, and part of the reason it was chosen to be used for use in Unix, was its portability, along with its simplicity and efficiency. This means that C code can compile to executables for many operating systems and pieces of hardware.
+
+The standard library in C is a collection of functions and macros that you can use in C programs without having to reinvent the wheel. `stdio.h`, or standard input/output (.h is one of the file extensions used by C programs) provides functions like `printf()` to print, and `scanf()` to get input. `stdlib.h` contains functions for memory management like `malloc()` (or memory allocate), and `free()`. As well as many more, such as  `string.h` for string manipulation, `math.h` for mathematical functions, and `time.h`, for dealing with time.
 
 ## Extras
 
