@@ -171,11 +171,11 @@ This would also run in an infinite loop. You could alternatively use the `GOSUB`
 50 GOSUB sayHello
 ```
 
-After line `30` has been run, it will return to the line after the `GOSUB`, meaning that this wouldn't run in a loop. And that was the basic BASIC syntax.
+After line `30` has been run, it will return to the line after the `GOSUB`, meaning that this wouldn't run in a loop. That was the basic BASIC syntax.
 
 ## [C](https://en.wikipedia.org/w/index.php?title=C_%28programming_language%29&useskin=vector)
 
-C might be *the* most well known and influential programming language ever, and so much of the software we use every day was written (primarily) in C. Some you might recognize are: The fucking Linux kernel, Git, FFmpeg, OpenSSL, VLC media player, Unix, Python, GCC, Doom, Vim, Quake 1-3, Bash, GIMP, OpenGL, APACHE, PHP, SQLite, PostgreSQL, MySQL, and Nginx. It also went on to inspire many other languages, such as C++, C#, Obj-C, Go, Java, JS, Julia, Perl, PHP, Python, Rust, Nim, and Zig.
+C might be *the* most well known and influential programming language ever, and so much of the software we use every day was written (primarily) in C. Some you might recognize are: the Linux kernel, Git, FFmpeg, OpenSSL, VLC media player, Unix, Python, GCC, Doom, Vim, Quake 1-3, Bash, GIMP, OpenGL, APACHE, PHP, SQLite, PostgreSQL, MySQL, and Nginx.
 
 C is a general-purpose programming language created by Dennis Ritchie in the 1970s, at Bell Labs, and is generally considered the first true high level programming language (meaning that it is closer to human language than machine code).
 
@@ -193,11 +193,97 @@ It's often referred to as the “K&R C” book, after its two authors, Dennis Ri
 
 ### Features
 
-C is known for its low level control. Meaning that it is able to manipulate hardware and memory directly, giving programmers a high degree of control. Due to this, C is sometimes referred to as a “high-level assembly language”, due to its ability to interact closely with the hardware while still providing some abstraction compared to assembly languages. It doesn't have a garbage collector, meaning that it's up to the programmer to manage memory allocation and deallocation. This can be very powerful, and is partly responsible for C's famous fast speeds, but can lead to errors and memory leaks if done wrong.
+C is known for its **low level** control. Meaning that it is able to manipulate hardware and memory directly, giving programmers a high degree of control. Due to this, C is sometimes referred to as a “high-level assembly language”, due to its ability to interact closely with the hardware while still providing some abstraction compared to assembly languages. It **doesn't have a garbage collector**, meaning that it's up to the programmer to manage memory allocation and deallocation. This can be very **powerful**, and is partly responsible for C's famous **fast** speeds, but can lead to errors and **memory** leaks if done wrong.
 
-It is also very efficient, C code runs quickly with minimal resources. One of its main features, and part of the reason it was chosen to be used for use in Unix, was its portability, along with its simplicity and efficiency. This means that C code can compile to executables for many operating systems and pieces of hardware.
+It is also very **efficient**, C code runs quickly with minimal resources. One of its main features, and part of the reason it was chosen to be used for use in Unix, was its **portability**, along with its **simplicity** and **efficiency**. This means that C code can compile to executables for many operating systems and pieces of hardware.
 
-The standard library in C is a collection of functions and macros that you can use in C programs without having to reinvent the wheel. `stdio.h`, or standard input/output (.h is one of the file extensions used by C programs) provides functions like `printf()` to print, and `scanf()` to get input. `stdlib.h` contains functions for memory management like `malloc()` (or memory allocate), and `free()`. As well as many more, such as  `string.h` for string manipulation, `math.h` for mathematical functions, and `time.h`, for dealing with time.
+The **standard library** in C is a collection of functions and macros that you can use in C programs without having to reinvent the wheel, saving time and effort. `stdio.h`, or standard input/output (.h is one of the file extensions used by C programs) provides functions like `printf()` to print, and `scanf()` to get input. `stdlib.h` contains functions for memory management like `malloc()` (or memory allocate), and `free()`. As well as many more, such as  `string.h` for string manipulation, `math.h` for mathematical functions, and `time.h`, for dealing with time.
+
+### Syntax
+
+You can declare variables with their data types like this:
+
+```c
+int age = 69; // int, or integer is for whole numbers (2 or 4 bytes)
+float pi = 3.14; // float, or floating point is for decimal numbers (4 bytes)
+double e = 2.71828182845; // like a float but with 8 bytes
+char grade = 'A'; // a single character/number (1 byte)
+```
+
+And use `if`, `else`, and `else-if`, for branching.
+
+```c
+int a = 1;
+int b = 3;
+
+if (a > b) {
+	printf("a > b");
+} else if (a == b) {
+	printf("a == b");
+} else {
+	printf("a < b");
+}
+```
+
+C has `for`, `while`, and `do-while` loops.
+
+```c
+int i = 0;
+while (i <= 10) {
+	printf("%d", i); // %d means integer variable
+	i++;
+} // prints the numbers 0-10
+```
+
+Arrays can be used to store multiple values in a single variable. All the elements in the array must be of the same data type.
+
+```c
+int numbers[] = {1, 2, 3, 4, 5}; //example array
+
+// you can get a specific element in an array with its index
+printf("%d", numbers[1]); // prints 2
+// you can also edit it
+numbers[3] = 19; // {1, 2, 3, 19, 5}
+```
+
+C does not have a string type, instead you create a char array.
+
+```c
+char string[] = "Hello World!!!\0" // double quotes instead of single which is usually used for char types
+```
+
+You could print out the string like this:
+
+```c
+char string[] = "Hello World!!!\0"; // the \0 marks the end of a string
+
+/* prints hello world
+   the %s means a string variable */
+printf("%s", string);
+```
+
+Input is handled with the `scanf()` function.
+
+```c
+int num;
+
+printf("Please type a number: \n"); // \n = new line
+scanf("%d", &num); // saves the input in the num variable
+```
+
+The `main()` function executes when the script is run, and imports are put at the top.
+
+```c
+#include <stdio.h> // all examples with printf() or scanf() require this
+
+int main() {
+	// code here
+}
+```
+
+There is soooo much more to the C syntax, but those are the absolute basics.
+
+C has gone on to influence many other languages, such as C++, C#, Obj-C, Go, Java, JS, Julia, Perl, PHP, Python, Rust, Nim, and Zig. C still sees heavy use in operating systems, drivers, and apps, but usage has declined since C++ is often a better choice.
 
 ## Extras
 
