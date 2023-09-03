@@ -283,17 +283,21 @@ int main() {
 
 There is soooo much more to the C syntax, but those are the absolute basics.
 
-C has gone on to influence many other languages, such as C++, C#, Obj-C, Go, Java, JS, Julia, Perl, PHP, Python, Rust, Nim, and Zig. C still sees heavy use in operating systems, drivers, and apps, but usage has declined since C++ is often a better choice.
+C has gone on to influence many other languages, such as C++, C#, Obj-C, Go, Java, JS, Julia, Perl, PHP, Python, Rust, Nim, and Zig, and sees heavy use in operating systems, drivers, and apps. According to Stack Overflow 19.34% of developers still use it in 2023, however, usage has declined since C++ is often a better choice.
 
 ## C++
 
-C++ is a high level, general purpose programming language, created by Bjarne Stroustrup, and first released in 1985. It is a superset of C, meaning that any valid C code is also valid C++ code. It has become more capable over time, with modern C++ supporting object-oriented programming, and classes.
+C++ is a high level, general purpose programming language, created by Bjarne Stroustrup, and first released in 1985. It is a superset of C, meaning that any valid C code is also valid C++ code. It has become more and more capable over time, with modern C++ supporting object-oriented programming, a stronger type system, better exception handling, inheritance, polymorphism, namespaces, and more.
+
+The Name C++ comes from a feature in C where if you wrote `var++` it would increment it by one. This represents how C++ has incremented on Cs features.
 
 ### History
 
-It all started in 1979, when Bjarne began work on 'C with Classes', when he started working at Bell Labs, he had the problem of analysing the Unix kernel, and set out to enhance C with features from another language, Simula, which had many features that were very useful for making software, but was too slow.
+The development of C++ started in 1979, when Bjarne began work on 'C with Classes'. When he started working at Bell Labs, he had the problem of analysing the Unix kernel, and set out to enhance C with new features. He took insperation from another language, Simula, which had many features that were very useful for making software, but was too slow.
 
 Initially, he added features to the existing C compiler, like classes, strong typing, inlining, and default arguments. But in 1982 he developed a new compiler called Cfront which compiled C++ to C.
+
+C++ gained popularity in the '90s and is widely used for game dev, systems programming, and more. According to Stack Overflow, 22.42% of devs use it, just above C.
 
 ## Bash
 
@@ -368,15 +372,9 @@ for file in *.wav; do
 done
 ```
 
+According to stack overflow, 32% of devs use Bash or another shell.
 
-
-## Python
-
-
-
-...
-
-
+## Pythons
 
 ## Lua
 
@@ -389,69 +387,128 @@ It was created in the early 1900s by a team of developers in Rio. Lua is very po
 {{< details Progress >}}
 
 1. ~~Fortran (1957)~~
+
 2. ~~COBOL (1959)~~
+
 3. ~~BASIC (1964)~~
+
 4. ~~C (1972)~~
+
 5. C++ (1983)
-6. Python (1991)
-7. Lua (1993)
-8. R (1993)
-9. Ruby (1995)
-10. Java (1995)
-11. PHP (1995)
-12. JavaScript (1995)
-13. C# (2000)
-14. Swift (2014)
-15. Bash (1989)
+
+6. Bash (1989)
+
+7. Python (1991)
+
+8. Lua (1993)
+
+9. R (1993)
+
+10. Ruby (1995)
+
+11. Java (1995)
+
+12. PHP (1995)
+
+13. JavaScript (1995)
+
+14. C# (2000)
+
+15. Swift (2014)
+
 16. Rust (2010)
+
 17. Go (2009)
+
 18. Kotlin (2011)
+
 19. Dart (2011)
     {{< /details >}}
-    
-    <br>
+
+<br>
     {{< details Sources >}}
 - [The History of Computers](https://www.bricsys.com/en-gb/blog/who-invented-computers) - Bricsys
+
 - [Computer](https://en.wikipedia.org/wiki/Computer) – Wikipedia
+
 - [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) – Wikipedia
+
 - [Difference Engine](https://en.wikipedia.org/wiki/Difference_engine) – Wikipedia
+
 - [Polynomial](https://en.wikipedia.org/wiki/Polynomial) – Wikipedia
+
 - [Fortran](https://en.wikipedia.org/wiki/Fortran) – Wikipedia
+
 - [Introduction to Fortran](https://ourcodingclub.github.io/tutorials/fortran-intro/) – Our Coding Club
+
 - [Implicit None Statement in Fortran](https://www.bottomscience.com/implicit-none-statement-how-to-use-it-fortran/) – Bottom Science
+
 - [Introduction to COBOL](https://www.mainframestechhelp.com/tutorials/cobol/introduction.htm) – Mainframes Tech Help
+
 - [Beginner's Guide to COBOL Made Easy](https://scribe.rip/modern-mainframe/beginners-guide-cobol-made-easy-introduction-ecf2f611ac76) – Scribe
+
 - [COBOL Tutorial](https://www.tutorialspoint.com/cobol/index.htm) – TutorialsPoint
+
 - [COBOL](https://en.wikipedia.org/wiki/COBOL?useskin=vector#History_and_specification) – Wikipedia
+
 - [Parallel computing](https://en.wikipedia.org/wiki/Parallel_computing?useskin=vector) – Wikipedia
+
 - [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming?useskin=vector) – Wikipedia
+
 - [COBOL Docs](https://www.ibm.com/docs/en/cobol-zos) – IBM
+
 - [Analytical Engine](https://en.wikipedia.org/wiki/Analytical_engine?useskin=vector) – Wikipedia
+
 - [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace?useskin=vector) – Wikipedia
+
 - [Bernoulli numbers](https://en.wikipedia.org/wiki/Bernoulli_number) – Wikipedia
+
 - [Turing Test](https://en.wikipedia.org/wiki/Turing_test?useskin=vector) – Wikipedia
+
 - [Turing Machine](https://en.wikipedia.org/wiki/Turing_machine?useskin=vector) – Wikipedia
+
 - [Alan Turing](https://en.wikipedia.org/w/index.php?title=Alan_Turing&useskin=vector) – Wikipedia
+
 - [Enigma machine](https://en.wikipedia.org/wiki/Enigma_machine?useskin=vector) – Wikipedia
+
 - [Turing's proof](https://en.wikipedia.org/wiki/Turing%27s_proof?useskin=vector) – Wikipedia
+
 - [Turing test](https://en.wikipedia.org/wiki/Turing_test?useskin=vector) – Wikipedia
+
 - [Grace Hopper](https://en.wikipedia.org/wiki/Grace_Hopper?useskin=vector) – Wikipedia
+
 - [Computer (occupation)](https://en.wikipedia.org/w/index.php?title=Computer_%28occupation%29&useskin=vector)  – Wikipedia
+
 - [BASIC](https://en.wikipedia.org/wiki/BASIC?useskin=vector) – Wikipedia
+
 - [Batch processing](https://en.wikipedia.org/wiki/Batch_processing?useskin=vector) – Wikipedia
+
 - [Time sharing](https://en.wikipedia.org/wiki/Time-sharing?useskin=vector) – Wikipedia
+
 - [Developer Survey](https://survey.stackoverflow.co/2023/#most-popular-technologies-language) – Stack Overflow
+
 - [Programming in BASIC](https://lateblt.tripod.com/basic.htm) – Lateblt @ Tripod.com
+
 - [Pascal](https://en.wikipedia.org/wiki/Pascal_(programming_language)?useskin=vector) – Wikipedia
+
 - [C](https://en.wikipedia.org/w/index.php?title=C_%28programming_language%29&useskin=vector) – Wikipedia
+
 - [C in 100s](https://www.youtube.com/watch?v=U3aXWizDbQ4) – [Fireship](https://www.youtube.com/@Fireship)
+
 - [Programs written in C](https://www.quora.com/What-are-some-known-programs-written-in-C-1) (plus fact-checking on Wikipedia)
+
 - [Most famous programs written in C](https://www.reddit.com/r/C_Programming/comments/43c42c/most_famous_programs_written_in_c/) (plus fact-checking on Wikipedia)
+
 - [C tutorial (w3schools)](https://www.w3schools.com/c/)
+
 - [Online C compiler](https://www.programiz.com/c-programming/online-compiler/) (for checking if my scripts were valid)
+
 - [C++](https://en.wikipedia.org/wiki/C%2B%2B) - Wikipedia
+
 - [Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)?useskin=vector) - Wikipedia
+
 - [About lua](https://www.lua.org/about.html)
+
 - [Lua (wikipedia)](https://en.wikipedia.org/wiki/Lua_(programming_language)?useskin=vector)
   {{< /details >}}
   
