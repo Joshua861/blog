@@ -32,7 +32,7 @@ timeline
 
 By the way, this list won't include binary or anything because that's what's a computer language, not a programming language.
 
-## [Fortran](https://en.wikipedia.org/wiki/Fortran?useskin=vector)
+## Fortran
 
 Fortran was originally developed by [IBM](https://en.wikipedia.org/wiki/IBM "IBM") in the 1950s, made as a more practical alternative to assembly. Fortran got its name from 'formula translation', and dominated scientific computing. It is popular for high performance computing, and has been in use for decades in areas such as weather, fluid dynamics, geophysics, and more.
 
@@ -48,7 +48,7 @@ Fortran 2003 and later introduced modern programming features such as [object-or
 
 Fortran's influence in the history of programming has been substantial, indirectly inspiring the development of later languages such as [BASIC](https://en.wikipedia.org/wiki/BASIC) & [C](https://en.wikipedia.org/wiki/C_(programming_language)?useskin=vector). It is being updated to this day, with the latest stable release (at time of recording) being in 2018. It's used by almost 1% of developers, according to the 2023 Stack Overflow Developer Survey. And due to its use in scientific computing and legacy systems, it's not going anywhere.
 
-## [COBOL](https://en.wikipedia.org/wiki/COBOL?useskin=vector)
+## COBOL
 
 In the late 1950s, programming was obscenely expensive. A survey found that with a data processing instillation, the programming alone cost $800,000 on average. Someone **HAD** to do something. It was getting out of hand. Luckily, it also found that—thank God—if a business-oriented language were used, it would be much cheaper and faster. Hooray!
 
@@ -70,7 +70,7 @@ Finally, we have the `PROCEDURE DIVISION`, which contains the actual logic of th
 
 COBOL is, to this day, a very commonly used language, with 0.66% of respondents to the Developer Survey, saying they used it. With the sheer quantity of COBOL legacy code still in use, it doesn't look like COBOL is going anywhere, anytime soon.
 
-## [BASIC](https://en.wikipedia.org/wiki/BASIC?useskin=vector#Origin)
+## BASIC
 
 > “BASIC, or 'Beginners' All-purpose Symbolic Instruction Code', is a family of general-purpose, high-level programming languages designed for ease of use.”
 > <cite> — Wikipedia</cite>
@@ -89,7 +89,7 @@ The project was given a $300k grant by the National Science Foundation. The mone
 
 The usage at Dartmouth increased rapidly, with the CPU needing to be replaced twice. By 1970 there were hundreds of people connected to said computers, some remotely. The designers, wanting more people to adopt the language, made it completely free. They put a lot of effort into promoting the language, and BASIC would go on to be hugely popular and inspire [Visual Basic](https://en.wikipedia.org/wiki/Visual_Basic_(classic)?useskin=vector).
 
-### [Syntax](https://lateblt.tripod.com/basic.htm)
+### Syntax
 
 {{< alert >}}
 This is the syntax for QBASIC.
@@ -173,7 +173,7 @@ This would also run in an infinite loop. You could alternatively use the `GOSUB`
 
 After line `30` has been run, it will return to the line after the `GOSUB`, meaning that this wouldn't run in a loop. That was the basic BASIC syntax.
 
-## [C](https://en.wikipedia.org/w/index.php?title=C_%28programming_language%29&useskin=vector)
+## C
 
 C might be *the* most well known and influential programming language ever, and so much of the software we use every day was written (primarily) in C. Some you might recognize are: the Linux kernel, Git, FFmpeg, OpenSSL, VLC media player, Unix, Python, GCC, Doom, Vim, Quake 1-3, Bash, GIMP, OpenGL, APACHE, PHP, SQLite, PostgreSQL, MySQL, and Nginx.
 
@@ -378,7 +378,7 @@ According to stack overflow, 32% of devs use Bash or another shell.
 
 Python is a high-level, general-purpose programming language. It's design philosophy emphasizes code readability and an extensive use of indentation.
 
-Python is the 3rd most used programming language, with almost half of respondents saying they used it.
+Python is the 3rd most used programming language, with almost half of respondents saying they use it.
 
 ## Lua
 
