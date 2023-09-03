@@ -22,12 +22,12 @@ However, it wasn't until the mid-20th century that the first true programming la
 
 {{< mermaid >}}
 timeline
-	title History of computers
-	1600 : The word computer in use
-	1822 : First programmable computer
-	1837 : Analytical Engine
-	1871 : Charles Babbage dies
-	1950 : First programming languages
+    title History of computers
+    1600 : The word computer in use
+    1822 : First programmable computer
+    1837 : Analytical Engine
+    1871 : Charles Babbage dies
+    1950 : First programming languages
 {{< /mermaid >}}
 
 By the way, this list won't include binary or anything because that's what's a computer language, not a programming language.
@@ -217,11 +217,11 @@ int a = 1;
 int b = 3;
 
 if (a > b) {
-	printf("a > b");
+    printf("a > b");
 } else if (a == b) {
-	printf("a == b");
+    printf("a == b");
 } else {
-	printf("a < b"); // this would execute
+    printf("a < b"); // this would execute
 } 
 ```
 
@@ -230,8 +230,8 @@ C has `for`, `while`, and `do-while` loops.
 ```c
 int i = 0;
 while (i <= 10) {
-	printf("%d", i); // %d means integer variable
-	i++;
+    printf("%d", i); // %d means integer variable
+    i++;
 } // prints the numbers 0-10
 ```
 
@@ -277,7 +277,7 @@ The `main()` function executes when the script is run, and imports are put at th
 #include <stdio.h> // all examples with printf() or scanf() require this
 
 int main() {
-	// code here
+    // code here
 }
 ```
 
@@ -322,9 +322,9 @@ There are also if, and else if statements.
 
 ```bash
 if [ "$age" -ge 18 ]; then # -ge means greater than or equal
-	echo "You are an adult."
+    echo "You are an adult."
 else
-	echo "You are not an adult."
+    echo "You are not an adult."
 fi # fi is used to end an if block
 ```
 
@@ -332,7 +332,7 @@ For loops can be used like this:
 
 ```bash
 for i in {1..5}; do
-	echo "$i"
+    echo "$i"
 done
 ```
 
@@ -340,7 +340,7 @@ Bash even lets you define functions.
 
 ```bash
 greet() {
-	echo "Hello $1!"
+    echo "Hello $1!"
 }
 
 greet "Josh" # Hello Josh!
@@ -356,12 +356,27 @@ echo "Hello, $name"
 Or anything else you can do from your terminal.
 
 ```bash
-neofetch
-
-for i in {1..10}; do
-	echo "I use arch btw"
+# converts all .wav files in a folder to .mp3 with ffmpeg
+for file in *.wav; do
+  if [ -f "$file" ]; then
+    # Extract the file name without the extension
+    filename="${file%.wav}"
+    # Convert to mp3 using ffmpeg
+    ffmpeg -i "$file" -q:a 0 "${filename}.mp3"
+    echo "Converted $file to ${filename}.mp3"
+  fi
 done
 ```
+
+
+
+## Python
+
+
+
+...
+
+
 
 ## Lua
 
@@ -372,6 +387,7 @@ It was created in the early 1900s by a team of developers in Rio. Lua is very po
 ## Extras
 
 {{< details Progress >}}
+
 1. ~~Fortran (1957)~~
 2. ~~COBOL (1959)~~
 3. ~~BASIC (1964)~~
@@ -394,9 +410,10 @@ It was created in the early 1900s by a team of developers in Rio. Lua is very po
 20. Go (2009)
 21. Kotlin (2011)
 22. Dart (2011)
-{{< /details >}}
-<br>
-{{< details Sources >}}
+    {{< /details >}}
+    
+    <br>
+    {{< details Sources >}}
 - [The History of Computers](https://www.bricsys.com/en-gb/blog/who-invented-computers) - Bricsys
 - [Computer](https://en.wikipedia.org/wiki/Computer) – Wikipedia
 - [Charles Babbage](https://en.wikipedia.org/wiki/Charles_Babbage) – Wikipedia
@@ -439,9 +456,10 @@ It was created in the early 1900s by a team of developers in Rio. Lua is very po
 - [Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)?useskin=vector) - Wikipedia
 - [About lua](https://www.lua.org/about.html)
 - [Lua (wikipedia)](https://en.wikipedia.org/wiki/Lua_(programming_language)?useskin=vector)
-{{< /details >}}
-<br>
-{{< details Video >}}
-<br>
-{{< youtube fDprWJBT9HE >}}
-{{</ details >}}
+  {{< /details >}}
+  
+  <br>
+  {{< details Video >}}
+  <br>
+  {{< youtube fDprWJBT9HE >}}
+  {{</ details >}}
