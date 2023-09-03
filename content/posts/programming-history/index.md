@@ -376,7 +376,9 @@ According to stack overflow, 32% of devs use Bash or another shell.
 
 ## Python
 
+Python is a high-level, general-purpose programming language. It's design philosophy emphasizes code readability and an extensive use of indentation.
 
+Python is the 3rd most used programming language, with almost half of respondents saying they used it.
 
 ## Lua
 
@@ -398,7 +400,7 @@ It was created in the early 1900s by a team of developers in Rio. Lua is very po
 
 5. ~~C++ (1983)~~
 
-6. Bash (1989)
+6. ~~Bash (1989)~~
 
 7. Python (1991)
 
@@ -421,10 +423,9 @@ It was created in the early 1900s by a team of developers in Rio. Lua is very po
 16. Rust (2010)
 
 17. Go (2009)
-    
     {{< /details >}}
-    
-    <br>
+
+<br>
     {{< details Sources >}}
 - [The History of Computers](https://www.bricsys.com/en-gb/blog/who-invented-computers) - Bricsys
 
