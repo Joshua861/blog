@@ -193,7 +193,7 @@ It's often referred to as the “K&R C” book, after its two authors, Dennis Ri
 
 ### Features
 
-C is known for its **low level** control. Meaning that it is able to manipulate hardware and memory directly, giving programmers a high degree of control. Due to this, C is sometimes referred to as a “high-level assembly language”, due to its ability to interact closely with the hardware while still providing some abstraction compared to assembly languages. It **doesn't have a garbage collector**, meaning that it's up to the programmer to manage memory allocation and deallocation. This can be very **powerful**, and is partly responsible for C's famous **fast** speeds, but can lead to errors and **memory** leaks if done wrong.
+C is known for its **low level** control. Meaning that it is able to manipulate hardware and memory directly. Due to this, C is sometimes referred to as a “high-level assembly language”, It **doesn't have a garbage collector**, meaning that it's up to the programmer to manage memory allocation and deallocation. This can be very **powerful**, and is partly responsible for C's famous **fast** speeds, but can lead to errors and **memory** leaks if done wrong.
 
 It is also very **efficient**, C code runs quickly with minimal resources. One of its main features, and part of the reason it was chosen to be used for use in Unix, was its **portability**, along with its **simplicity** and **efficiency**. This means that C code can compile to executables for many operating systems and pieces of hardware.
 
@@ -221,8 +221,8 @@ if (a > b) {
 } else if (a == b) {
 	printf("a == b");
 } else {
-	printf("a < b");
-}
+	printf("a < b"); // this would execute
+} 
 ```
 
 C has `for`, `while`, and `do-while` loops.
