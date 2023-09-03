@@ -374,7 +374,9 @@ done
 
 According to stack overflow, 32% of devs use Bash or another shell.
 
-## Pythons
+## Python
+
+
 
 ## Lua
 
@@ -394,7 +396,7 @@ It was created in the early 1900s by a team of developers in Rio. Lua is very po
 
 4. ~~C (1972)~~
 
-5. C++ (1983)
+5. ~~C++ (1983)~~
 
 6. Bash (1989)
 
@@ -419,13 +421,10 @@ It was created in the early 1900s by a team of developers in Rio. Lua is very po
 16. Rust (2010)
 
 17. Go (2009)
-
-18. Kotlin (2011)
-
-19. Dart (2011)
+    
     {{< /details >}}
-
-<br>
+    
+    <br>
     {{< details Sources >}}
 - [The History of Computers](https://www.bricsys.com/en-gb/blog/who-invented-computers) - Bricsys
 
