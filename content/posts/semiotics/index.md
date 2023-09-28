@@ -1,6 +1,5 @@
 +++
 title = "Semiotics"
-author = ["Josh"]
 draft = false
 date = 2023-09-21
 +++
