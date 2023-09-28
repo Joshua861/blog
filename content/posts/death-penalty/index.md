@@ -76,19 +76,3 @@ As with other religious groups, it's worth noting that Jewish views on the death
 ## My views and conclusion
 
 In summary, a life sentence in prison is a more morally and financially sound option than the death penalty. It allows for the possibility of exoneration in the event of wrongful conviction, and also offers opportunities for rehabilitation and reintegration into society. Furthermore, the death penalty raises ethical concerns regarding the state's authority to take lives, and the methods used in execution can be deemed inhumane. In contrast, a life sentence does not have the same moral implications.
-
-{{< details "Further Info" >}}
-Sentencing someone to death denies that individual two vital human rights guaranteed under international law, as established by the 1948 Universal Declaration of Human Rights (UDHR):  
-  
-• The right to life (Article 3)  
-• The right not to be tortured or subjected to cruel, inhuman and degrading punishment (Article 5).  
-[](https://deathpenaltyinfo.org/facts-and-research/sentencing-data/state-death-sentences-by-year)
-
-### [Executions are falling in most US states:](https://deathpenaltyinfo.org/facts-and-research/sentencing-data/state-death-sentences-by-year)
-
-{{< figure src="/images/g1.png" alt="graph of executions falling" >}}
-
-{{< figure src="/images/g2.png" alt="graph of executions falling" >}}
-
-{{< figure src="/images/g3.png" alt="graph of executions falling" >}}
-{{< /details >}}
